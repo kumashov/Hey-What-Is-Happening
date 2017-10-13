@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2213237662" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Underwater</ObjectPath>
+			<ShortName>Underwater</ShortName>
+			<Path>Underwater.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4185698490" Name="EnterUnderwater" ObjectPath="\Events\Default Work Unit\EnterUnderwater"/>
+				<Event Id="787417374" Name="ExitUnderwater" ObjectPath="\Events\Default Work Unit\ExitUnderwater"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="697224158" Language="SFX">
+					<ShortName>269010__lwdickens__water-splash-3.wav</ShortName>
+					<Path>SFX\269010__lwdickens__water-splash-3_9E69E797.wem</Path>
+				</File>
+				<File Id="714319681" Language="SFX">
+					<ShortName>190085__tran5ient__splash9.wav</ShortName>
+					<Path>SFX\190085__tran5ient__splash9_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="884831434" Name="ChangeEnv_Cave" ObjectPath="\Events\Default Work Unit\ChangeEnv_Cave" MaxAttenuation="0.000000"/>
+				<Event Id="3195589498" Name="ChangeEnv_Forest" ObjectPath="\Events\Default Work Unit\ChangeEnv_Forest" MaxAttenuation="0.000000"/>
+				<Event Id="928611434" Name="ChangeEnv_Outside" ObjectPath="\Events\Default Work Unit\ChangeEnv_Outside" MaxAttenuation="0.000000"/>
+				<Event Id="3107706658" Name="ChangeEnv_Underwater" ObjectPath="\Events\Default Work Unit\ChangeEnv_Underwater" MaxAttenuation="0.000000"/>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Jump"/>
+				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="105681997" Language="SFX">
+					<ShortName>Footstep03.wav</ShortName>
+					<Path>SFX\Footstep03_9E69E797.wem</Path>
+				</File>
+				<File Id="488214762" Language="SFX">
+					<ShortName>Footstep01.wav</ShortName>
+					<Path>SFX\Footstep01_9E69E797.wem</Path>
+				</File>
+				<File Id="523273653" Language="SFX">
+					<ShortName>Footstep04.wav</ShortName>
+					<Path>SFX\Footstep04_9E69E797.wem</Path>
+				</File>
+				<File Id="611297062" Language="SFX">
+					<ShortName>Footstep02.wav</ShortName>
+					<Path>SFX\Footstep02_9E69E797.wem</Path>
+				</File>
+				<File Id="626485153" Language="SFX">
+					<ShortName>Land.wav</ShortName>
+					<Path>SFX\Land_9E69E797.wem</Path>
+				</File>
+				<File Id="697224158" Language="SFX">
+					<ShortName>269010__lwdickens__water-splash-3.wav</ShortName>
+					<Path>SFX\269010__lwdickens__water-splash-3_9E69E797.wem</Path>
+				</File>
+				<File Id="714319681" Language="SFX">
+					<ShortName>190085__tran5ient__splash9.wav</ShortName>
+					<Path>SFX\190085__tran5ient__splash9_9E69E797.wem</Path>
+				</File>
+				<File Id="921952352" Language="SFX">
+					<ShortName>Jump.wav</ShortName>
+					<Path>SFX\Jump_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="4041657371" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\VoiceOver</ObjectPath>
+			<ShortName>VoiceOver</ShortName>
+			<Path>VoiceOver.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1540195120" Name="Greeting" ObjectPath="\Events\Default Work Unit\Greeting"/>
+				<Event Id="279913627" Name="LowRegisterGreeting" ObjectPath="\Events\Default Work Unit\LowRegisterGreeting"/>
+				<Event Id="2707154247" Name="LowRegisterResponse" ObjectPath="\Events\Default Work Unit\LowRegisterResponse"/>
+				<Event Id="2090431140" Name="Response" ObjectPath="\Events\Default Work Unit\Response"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="180310895" Language="SFX">
+					<ShortName>lily11.wav</ShortName>
+					<Path>SFX\lily11_9E69E797.wem</Path>
+				</File>
+				<File Id="647477946" Language="SFX">
+					<ShortName>lily5.wav</ShortName>
+					<Path>SFX\lily5_9E69E797.wem</Path>
+				</File>
+				<File Id="721878772" Language="SFX">
+					<ShortName>ted03.wav</ShortName>
+					<Path>SFX\ted03_9E69E797.wem</Path>
+				</File>
+				<File Id="759825817" Language="SFX">
+					<ShortName>hugo08.wav</ShortName>
+					<Path>SFX\hugo08_9E69E797.wem</Path>
+				</File>
+				<File Id="796168968" Language="SFX">
+					<ShortName>hugo06.wav</ShortName>
+					<Path>SFX\hugo06_9E69E797.wem</Path>
+				</File>
+				<File Id="885326075" Language="SFX">
+					<ShortName>lily01.wav</ShortName>
+					<Path>SFX\lily01_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

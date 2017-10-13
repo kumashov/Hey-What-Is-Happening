@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9592ab30487c00c438f2d305df0ec1e5, type: 3}
+  m_Name: LevelSettings
+  m_EditorClassIdentifier: 
+  SkyboxMaterials:
+  - {fileID: 2100000, guid: 71f14a2d79f732f4d9893ef1b911f4ff, type: 2}
+  - {fileID: 2100000, guid: 4067de1a02072244798361060c5e7325, type: 2}
+  LevelBlockingObjects:
+  - {fileID: 1369957296645286, guid: 3d757f1b926544b47bf94aa6f35d9775, type: 2}
+  - {fileID: 1370100477557770, guid: 6dd2cbed8c5f843409bbf8808c1b2248, type: 2}
+  TreeObjects:
+  - {fileID: 1565984573448722, guid: 3b02e6d98f08c3b4d9e9f0e6f1081e15, type: 2}
+  - {fileID: 1273769032125788, guid: 624a44e6160d6cf4ab5cdfdfd5451bf2, type: 2}
+  - {fileID: 1307305692550808, guid: 4a77e3132cbab6744bab58331722cda1, type: 2}
+  - {fileID: 1529335482503344, guid: cc04a51badbf52c45834bae1b539998f, type: 2}
+  BushObjects:
+  - {fileID: 1917207397862226, guid: 2f62ccc316f0f0a449124b0ac2b6f97b, type: 2}
+  - {fileID: 1940021837146920, guid: 01b3bfc89f8c42b49b022c2d7922d0fe, type: 2}
+  - {fileID: 1110419906587946, guid: 2fb82c703753f3e438974f95829d47a4, type: 2}
+  - {fileID: 1577571499135274, guid: 61fac4a617f82d74d9714a8bb2403943, type: 2}
+  - {fileID: 1708082727914060, guid: cb4d135d6c494e64cb007a94f35f140e, type: 2}
+  - {fileID: 1421502234570924, guid: c747a64ed706bfe49bc00d00f094b3c3, type: 2}
+  MushroomObjects:
+  - {fileID: 1321709430626892, guid: fc60511926b463f4e9f0fe86fca6f91a, type: 2}
+  - {fileID: 1886085074733630, guid: c7aafc6920894f14788e03b9c5173c9f, type: 2}
+  - {fileID: 1500847541618982, guid: 5bbb0b86f03bf2f41a9e3cbe9f8980e3, type: 2}
+  - {fileID: 1291798172123072, guid: fc56e3bf3610db64d9bd45ff3abf00f1, type: 2}
+  - {fileID: 1319613163962252, guid: 4fee4a5c7a7d8ff48aebde2989512283, type: 2}
+  RockObjects:
+  - {fileID: 1820874638351580, guid: e58f0417e07233145bf62151d8bae782, type: 2}
+  - {fileID: 1088507147815974, guid: f921b8be176576642a0ca141aeecc3c7, type: 2}
+  - {fileID: 1175084911028786, guid: 0b6394689098425459558c48cc94501c, type: 2}
+  - {fileID: 1968759775380616, guid: efc656962bb244a4f83c413906905c9c, type: 2}
+  - {fileID: 1183265062522080, guid: 1edc2b030f417f74d9fca99a57a35e48, type: 2}
+  - {fileID: 1780846173850076, guid: ecfbeada215220a48bf8ddcc1ef82776, type: 2}
+  - {fileID: 1135536076729048, guid: 246b6ec9eccdc614cb7f9a097e9dbb79, type: 2}
+  - {fileID: 1191216198751064, guid: e04825a1ea48b0247bc9fa664c8f7d4f, type: 2}
+  - {fileID: 1000014272545206, guid: 25320f5db1e777640893adee831a395d, type: 2}
+  - {fileID: 1000011088640662, guid: bebe000bba7a2814c987dab912e9ca25, type: 2}
+  - {fileID: 1000011952778948, guid: 045c935314cc80843b2d053da4030e8f, type: 2}
+  - {fileID: 1000013569281672, guid: 0f7fed71e0dffca48933e2d44d935c3e, type: 2}
+  - {fileID: 1000010504624536, guid: 6a811ca5642a6004d91f440401f5bbe0, type: 2}
+  - {fileID: 1100931599592634, guid: 810a43ba092d9d047b8edbbefc1a075a, type: 2}
+  - {fileID: 1215173031625378, guid: 42ae01a619f0e12478ddc9e032417c1a, type: 2}
+  - {fileID: 1168490577996462, guid: d70aaada9945426458b1fb7b8db9f4ac, type: 2}
+  - {fileID: 1262681865007770, guid: b4978307c573abb48a955cf99b2be5a9, type: 2}
+  HumanMadeObjects:
+  - {fileID: 189394, guid: 91e9ae28c1db06f4fb439389c789a796, type: 2}
+  - {fileID: 195778, guid: 3a3bc31209a71d24bb5fb0c9ee91ec97, type: 2}
+  - {fileID: 173768, guid: ab3d53f6ffb4b2d48b171c249e8daea4, type: 2}

@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	279913627	LowRegisterGreeting			\Default Work Unit\LowRegisterGreeting	
+	1540195120	Greeting			\Default Work Unit\Greeting	
+	2090431140	Response			\Default Work Unit\Response	
+	2707154247	LowRegisterResponse			\Default Work Unit\LowRegisterResponse	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	180310895	lily_respond_2	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\lily11_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\lily_response\lily_respond_2		251320
+	647477946	lily_respond_1	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\lily5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\lily_response\lily_respond_1		305820
+	721878772	ted_greet	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\ted03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ted_greet		380852
+	759825817	hugo_respond_2	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\hugo08_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\hugo_response\hugo_respond_2		552876
+	796168968	hugo_respond_1	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\hugo06_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\hugo_response\hugo_respond_1		342468
+	885326075	lily_greet	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\lily01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\lily_greet		287468
+

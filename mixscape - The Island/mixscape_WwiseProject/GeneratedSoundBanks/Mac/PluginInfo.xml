@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Project="mixscape_WwiseProject" Platform="Mac" BasePlatform="Mac">
+	<Plugins>
+		<Plugin Name="Wwise Expander" ID="7143427" DLL="AkExpander"/>
+	</Plugins>
+</PluginInfo>

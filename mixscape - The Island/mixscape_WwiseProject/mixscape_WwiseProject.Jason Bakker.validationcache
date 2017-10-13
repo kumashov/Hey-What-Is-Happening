@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="75">
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="4126543714" DateHigh="30601932"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="3284272108" DateHigh="30599578"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="2250541698" DateHigh="30599585"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="2828831689" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="2828856884" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="2828881829" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="2828911912" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="2828941986" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="2828972063" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Effects\Default Work Unit.wwu" DateLow="2828997404" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Effects\Factory Effects.wwu" DateLow="2829040510" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Events\Default Work Unit.wwu" DateLow="4126573818" DateHigh="30601932"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="4126623972" DateHigh="30601932"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="2829121003" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2380085033" DateHigh="30599540"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2829171115" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="2829196186" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\mixscape_WwiseProject.Jason Bakker.wsettings" DateLow="4127672539" DateHigh="30601932"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\mixscape_WwiseProject.wproj" DateLow="2829594630" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="2829221248" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Presets\Default Work Unit.wwu" DateLow="2829246073" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Queries\Default Work Unit.wwu" DateLow="2829276153" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Queries\Factory Queries.wwu" DateLow="2829311500" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="4127552228" DateHigh="30601932"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2829361384" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\States\Default Work Unit.wwu" DateLow="2829388610" DateHigh="30599536"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Switches\Default Work Unit.wwu" DateLow="4127582299" DateHigh="30601932"/>
+	<ValidationCacheItem File="C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="2829443770" DateHigh="30599536"/>
+</ValidationCache>

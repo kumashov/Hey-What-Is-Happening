@@ -1,0 +1,10 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	438105790	Outside			\Default Work Unit\Master Audio Bus\Outside	
+	491961918	Forest			\Default Work Unit\Master Audio Bus\Forest	
+	2213237662	Underwater			\Default Work Unit\Master Audio Bus\Underwater	
+	4122393694	Cave			\Default Work Unit\Master Audio Bus\Cave	
+

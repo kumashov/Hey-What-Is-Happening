@@ -1,0 +1,1686 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &155698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 422758}
+  - 114: {fileID: 11432240}
+  m_Layer: 0
+  m_Name: AssetIndexer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &422758
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.4409695, y: 0.96156013, z: 2.617393}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11432240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d395228424b033644afbc403aecfe647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoUpdate: 0
+  SerializeAllObjects: 0
+  IndexedTypeNames: []
+  SerializedItems:
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleEyes
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/UMA_Human_Female_Eyes_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleFace
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/UMA_Human_Female_Face_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleFeet
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/UMA_Human_Female_Feet_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleHands
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/UMA_Human_Female_Hands_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleInnerMouth
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/UMA_Human_Female_InnerMouth_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleLegs
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/UMA_Human_Female_Legs_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleTorso
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/UMA_Human_Female_Torso_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleHead_Ears
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/FemaleSwappedHead/UMA_Human_Female_Head_Ears_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleHead_ElvenEars
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/FemaleSwappedHead/UMA_Human_Female_Head_ElvenEars_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleHead_Eyes
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/FemaleSwappedHead/UMA_Human_Female_Head_Eyes_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleHead_Head
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/FemaleSwappedHead/UMA_Human_Female_Head_Head_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleHead_Mouth
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/FemaleSwappedHead/UMA_Human_Female_Head_Mouth_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleHead_Nose
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/FemaleSwappedHead/UMA_Human_Female_Head_Nose_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: UMA_Human_Female_Head_AnimeElvenEars
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/FemaleSwappedHead/FemaleAnimeElvenEars/UMA_Human_Female_Head_AnimeElvenEars_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: F_High poly Eyebrows
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/MidPoly/UMA_Human_Female_Eyebrows_Mid_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: UMA_Human_Female_Hands_HQ
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/MidPoly/UMA_Human_Female_Hands_Mid_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: F_High poly head
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/MidPoly/UMA_Human_Female_Head_Mid_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleEyes
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/UMA_Human_Male_Eyes_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleFace
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/UMA_Human_Male_Face_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleFeet
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/UMA_Human_Male_Feet_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleHands
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/UMA_Human_Male_Hands_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleInnerMouth
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/UMA_Human_Male_InnerMouth_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleLegs
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/UMA_Human_Male_Legs_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleTorso
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/UMA_Human_Male_Torso_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleHead_Ears
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/MaleSwappedHead/UMA_Human_Male_Head_Ears_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleHead_ElvenEars
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/MaleSwappedHead/UMA_Human_Male_Head_ElvenEars_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleHead_Eyes
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/MaleSwappedHead/UMA_Human_Male_Head_Eyes_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleHead_Head
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/MaleSwappedHead/UMA_Human_Male_Head_Head_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleHead_Mouth
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/MaleSwappedHead/UMA_Human_Male_Head_Mouth_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleHead_Nose
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/MaleSwappedHead/UMA_Human_Male_Head_Nose_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleHead_PigNose
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/MaleSwappedHead/UMA_Human_Male_Head_PigNose_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: UMA_Human_Male_Head_AnimeElvenEars
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/MaleSwappedHead/MaleAnimeElvenEars/UMA_Human_Male_Head_AnimeElvenEars_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: M_High poly Eyebrows
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/MidPoly/UMA_Human_Male_Eyebrows_Mid_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: M_High poly Eyelash
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/MidPoly/UMA_Human_Male_Eyelash_Mid_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: UMA_Human_Male_Hands_HQ
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/MidPoly/UMA_Human_Male_Hands_Mid_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: M_High poly Head
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Slots/Body/MidPoly/UMA_Human_Male_Head_Mid_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleTshirt01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Slots/Clothing/FemaleTshirt01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleEyelash
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Slots/Hair/FemaleEyelash.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleEyelashfix
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Slots/Hair/FemaleEyelashfix_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: UMA_fem_hair_1_005
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Slots/Hair/FemaleHighPolyHair.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleLongHair01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Slots/Hair/FemaleLongHair01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleLongHair01_Module
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Slots/Hair/FemaleLongHair01_Module.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleShortHair01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Slots/Hair/FemaleShortHair01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: F_Eyebrow
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Slots/Hair/F_Eyebrow_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleJeans01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Slots/Clothing/MaleJeans01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleJeans02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Slots/Clothing/MaleJeans02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: _Gloves of Hammer
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Slots/Clothing/M_Gloves of Hammer_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: M_Wrapped Pants
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Slots/Clothing/M_Wrapped Pants_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: M_Freebie Robeset Boots_Slot
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Slots/Clothing/M_Freebie Robeset
+      Boots/M_Freebie Robeset Boots_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: M_Freebie Robeset Hood_Slot
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Slots/Clothing/M_Freebie Robeset
+      Hood/M_Freebie Robeset Hood_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: M_Freebie Robeset Robe_Slot
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Slots/Clothing/M_Freebie Robeset
+      Robe/M_Freebie Robeset Robe_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: MaleHair1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Slots/Hair/MaleHair1_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: M_Eyebrow
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Slots/Hair/M_Eyebrow_Slot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleEyelashGuide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/FemaleEyelashGuide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleEyesGuide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/UMA_Human_Female_Eyes_SlotGuide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleFaceGuide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/UMA_Human_Female_Face_SlotGuide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleFeetGuide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/UMA_Human_Female_Feet_SlotGuide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleHandsGuide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/UMA_Human_Female_Hands_SlotGuide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleInnerMouthGuide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/UMA_Human_Female_InnerMouth_SlotGuide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleLegsGuide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/UMA_Human_Female_Legs_SlotGuide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: FemaleTorsoGuide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/UMA_Human_Female_Torso_SlotGuide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: UMA_Toon_EYES_Guide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/Toon/UMA_Toon_EYES_Guide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: UMA_Toon_FACE-Female-Guide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/Toon/UMA_Toon_FACE-Female_Guide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: UMA_Toon_FEET_Guide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/Toon/UMA_Toon_FEET_Guide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: UMA_Toon_HANDS_Guide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/Toon/UMA_Toon_HANDS_Guide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: UMA_Toon_INNERMOUTH_Guide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/Toon/UMA_Toon_INNERMOUTH_Guide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: UMA_Toon_LASHES-Female-Guide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/Toon/UMA_Toon_LASHES-Female_Guide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: UMA_Toon_LEGS-Female-Guide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/Toon/UMA_Toon_LEGS-Female_Guide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: UMA_Toon_TORSO-Female-Guide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Slots/Toon/UMA_Toon_TORSO-Female_Guide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: PlaceholderFace
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/PlaceholderAssets/Resources/Slots/PlaceholderFace.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: PlaceholderFeet
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/PlaceholderAssets/Resources/Slots/PlaceholderFeet.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: PlaceholderHands
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/PlaceholderAssets/Resources/Slots/PlaceholderHands.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: PlaceholderLegs
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/PlaceholderAssets/Resources/Slots/PlaceholderLegs.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: PlaceholderSlot
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/PlaceholderAssets/Resources/Slots/PlaceholderSlot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: PlaceholderTorso
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/PlaceholderAssets/Resources/Slots/PlaceholderTorso.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: CapsuleCollider
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/AdditionalSlots/CapsuleCollider/CapsuleColliderSlot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: Expressions
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/AdditionalSlots/Expressions/ExpressionSlot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: ForearmTwist
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/AdditionalSlots/ForearmTwist/ForearmTwistSlot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: Locomotion
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/AdditionalSlots/Locomotion/LocomotionSlot.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: F_H_Bod
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Overlays/Body/F_H_bod.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleLipstick01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Overlays/Complexion/FemaleLipstick01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: F_H_Head 2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Overlays/Face/F_H_Head 2.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: F_H_Head
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Overlays/Face/F_H_Head.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: F_HighPoly_EyeBrow
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Overlays/Mid Poly Head/F_HighPoly_EyeBrow.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Bod Overlay 1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Overlays/Body/M_Bod Overlay 1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Bod Overlay 2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Overlays/Body/M_Bod Overlay 2.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Bod smooth
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Overlays/Body/M_Bod smooth.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: Body Freckles
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Overlays/Complexion/Body Freckles.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: Body Hair
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Overlays/Complexion/Body Hair.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: Skin patches Face
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Overlays/Complexion/Skin patches
+      Face.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: Skin Patches
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Overlays/Complexion/Skin Patches.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Face_01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Overlays/Face/M_Face_01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Face_02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Overlays/Face/M_Face_02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Face
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Overlays/Face/M_Face_BW_Compatible.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Face_Old
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Overlays/Face/M_Face_Old.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleHead01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Overlays/Face/SwappedHead/MaleFace01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleHead_PigNose
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Overlays/Face/SwappedHead/Human Male
+      PigNose/MaleHead_PigNose.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: ElvenEars-1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Face/ElvenEars- Body 1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: ElvenEars
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Face/ElvenEars.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: InnerMouth
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Face/InnerMouth.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: Eye Overlay
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Face/Eye/Eye Overlay.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: EyeOverlay
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Face/Eye/EyeOverlay.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FP Default Eye Adjust
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Face/Eye/FP Default Eye
+      Adjust.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: Alligator_eye_adjust
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Face/Eye/EyeAdjust/Alligator_eye_adjust.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: Alligator_eye_Alternate_adjust
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Face/Eye/EyeAdjust/Alligator_eye_Alternate_adjust.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: Cat_eye_adjust
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Face/Eye/EyeAdjust/Cat_eye_adjust.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: Cat_eye_Alternate_adjust
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Face/Eye/EyeAdjust/Cat_eye_Alternate_adjust.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: Default Eye Adjust
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Face/Eye/EyeAdjust/Default
+      Eye Adjust.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: EyeOverlayAdjust
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Face/Eye/EyeAdjust/EyeOverlayAdjust.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: Eye_Large_Adjust
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Face/Eye/EyeAdjust/Eye_Large_Adjust.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MeshHair
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Hair/MeshHairAniso.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MeshHairStd
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanShared/Overlays/Hair/MeshHairStd.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleBody01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Body/Alternate Bodies/FemaleBody01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleBody02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Body/Alternate Bodies/FemaleBody02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleJeans01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Clothing/FemaleJeans01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleJeans02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Clothing/FemaleJeans02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleShirt01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Clothing/FemaleShirt01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleShirt02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Clothing/FemaleShirt02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleTshirt01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Clothing/FemaleTshirt01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleTshirt02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Clothing/FemaleTshirt02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleUnderwear01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Clothing/FemaleUnderwear01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleUnderwear02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Clothing/FemaleUnderwear02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleUnderwear-2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Clothing/NewFemaleUnderwear.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: GirlShirt01Color
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Clothing/HumanGirl/GirlShirt01Color.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleEyebrow01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Hair/FemaleEyebrow01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleEyelash
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Hair/FemaleEyelash.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleLongHair01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Hair/FemaleLongHair01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleLongHair01_Module
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Hair/FemaleLongHair01_Module.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleLongHair_Cap
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Hair/FemaleLongHair_Cap.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: FemaleShortHair01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Hair/FemaleShortHair01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: F_Eyebrow 3
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Hair/F_Eyebrow 3.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: F_H_Eyelash
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Overlays/Hair/F_H_Eyelash.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleBody01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Body/Alternate Bodies/MaleBody01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleBody02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Body/Alternate Bodies/MaleBody02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleHead02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Body/Alternate Bodies/MaleFace02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: Gloves of Hammer Overlay
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/Gloves of Hammer
+      Overlay.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleJeans01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/MaleJeans01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleJeans02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/MaleJeans02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleShirt01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/MaleShirt01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleShirt01Color
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/MaleShirt01Color.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleUnderwear01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/MaleUnderwear01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleUnderwear_hearts
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/MaleUnderwear02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Freebie Robeset Boots
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/M_Freebie Robeset
+      Boots.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Freebie Robeset Hood AC
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/M_Freebie Robeset
+      Hood AC.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Freebie Robeset Hood
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/M_Freebie Robeset
+      Hood.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Freebie Robeset Robe AC
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/M_Freebie Robeset
+      Robe AC.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Freebie Robeset Robe
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/M_Freebie Robeset
+      Robe.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Underwear
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/M_H_Underwear.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: Wrapped Pants
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Clothing/Wrapped Pants.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleBeard01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Hair/MaleBeard01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleBeard02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Hair/MaleBeard02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleBeard03
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Hair/MaleBeard03.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleEyebrow01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Hair/MaleEyebrow01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleEyebrow02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Hair/MaleEyebrow02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleHair01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Hair/MaleHair01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleHair02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Hair/MaleHair02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Eyebrow
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Hair/M_Eyebrow.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Eyelash
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Hair/M_Eyelash.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: M_Face 1 eyebrows
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Hair/M_Face 1 eyebrows.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: MaleHair03
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Overlays/Hair/TheRebel.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: GuideMeshOverlay
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Overlays/GuideMeshOverlay.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: GuideMeshOverlay-Trans
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Resources/Overlays/GuideMeshOverlayTrans.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: PlaceholderOverlay
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/PlaceholderAssets/Resources/Overlays/PlaceholderOverlay.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: RaceData
+    _Name: HumanFemaleDCS
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/RaceData/Human Female DCS.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: RaceData
+    _Name: HumanFemale
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/RaceData/Human Female.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: RaceData
+    _Name: HumanGirlDCS
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/RaceData/Human Girl DCS.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: RaceData
+    _Name: HumanMaleDCS
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/RaceData/Human Male DCS.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: RaceData
+    _Name: HumanMale
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/RaceData/Human Male.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: RaceData
+    _Name: PlaceholderRace
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/PlaceholderAssets/Resources/Race/PlaceholderRace.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: HumanFemale Base Recipe
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Recipes/Base Recipes/HumanFemale
+      Base Recipe.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: HumanFemaleDCS Base Recipe
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Recipes/Base Recipes/HumanFemaleDCS
+      Base Recipe.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: HumanGirlDCS Base Recipe
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Recipes/Base Recipes/HumanGirlDCS
+      Base Recipe.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: HumanMale Base Recipe
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Recipes/BaseRecipes/HumanMale Base
+      Recipe.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: HumanMaleDCS Base Recipe
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Recipes/BaseRecipes/HumanMaleDCS
+      Base Recipe.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: FemaleToonBaseGuide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Recipes/FemaleToonBaseGuide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: GirlBaseAsDNA
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Recipes/GirlBaseAsDNA.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: GirlBaseGuide
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/DynamicDNA/Recipes/GirlBaseGuide.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: PlaceholderBase
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/PlaceholderAssets/Resources/Recipes/PlaceholderBase.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: CapsuleColliderRecipe
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/AdditionalSlots/CapsuleCollider/CapsuleColliderRecipe.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: ExpressionsRecipe
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/AdditionalSlots/Expressions/ExpressionsRecipe.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: ForearmTwistRecipe
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/AdditionalSlots/ForearmTwist/ForearmTwistRecipe.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: LocomotionRecipe
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/AdditionalSlots/Locomotion/LocomotionRecipe.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: Harold
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/Characters/Harold.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: KimCardassian
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/Characters/KimCardassian.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: Shelly
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/Characters/Shelly.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: Sven
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/Characters/Sven.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: Troll
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/Characters/Troll.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: FemaleHair
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/RecipeFragments/FemaleHair.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: FemaleHairLong
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/RecipeFragments/FemaleHairLong.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: FemaleHairShort
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/RecipeFragments/FemaleHairShort.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: FemaleOutfit1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/RecipeFragments/FemaleOutfit1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: FemaleOutfit2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/RecipeFragments/FemaleOutfit2.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: FemaleUnderwear
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/RecipeFragments/FemaleUnderwear.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: MaleBase
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/RecipeFragments/MaleBase.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: MaleBase2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/RecipeFragments/MaleBase2.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: MaleBeard
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/RecipeFragments/MaleBeard.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: MaleHair
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/RecipeFragments/MaleHair.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: MaleOutfit1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/RecipeFragments/MaleOutfit1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: MaleUnderwear
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/RecipeFragments/MaleUnderwear.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: FemaleHandsMid
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Recipes/Wardrobe Recipes/HumanFemale/FemaleHandsMid.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: FemaleSwappedFace
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Recipes/Wardrobe Recipes/HumanFemale/FemaleSwappedFace.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleHandsMid
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Recipes/WardrobeRecipes/MaleHandsMid.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleLowPolyHead
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/Recipes/WardrobeRecipes/MaleLowPolyHead.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: FemaleHair1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Recipes/WardrobeRecipes/HumanFemale/FemaleHair1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: FemaleHair2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Recipes/WardrobeRecipes/HumanFemale/FemaleHair2.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: FemaleHair3
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Recipes/WardrobeRecipes/HumanFemale/FemaleHair3.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: FemalePants1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Recipes/WardrobeRecipes/HumanFemale/FemalePants1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: FemalePants2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Recipes/WardrobeRecipes/HumanFemale/FemalePants2.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: FemaleShirt1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Recipes/WardrobeRecipes/HumanFemale/FemaleShirt1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: FemaleShirt2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Recipes/WardrobeRecipes/HumanFemale/FemaleShirt2.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: FemaleShirt3
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Recipes/WardrobeRecipes/HumanFemale/FemaleShirt3.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: FemaleShirt4
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Recipes/WardrobeRecipes/HumanFemale/FemaleShirt4.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: FemaleUndies
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Recipes/WardrobeRecipes/HumanFemale/FemaleUndies.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: GirlShirt1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanFemale/Recipes/WardrobeRecipes/HumanGirl/GirlShirt1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleBeard1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleBeard1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleBeard2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleBeard2.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleBeard3
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleBeard3.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleBrow01
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleBrow01.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleBrow02
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleBrow02.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleBrowHR
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleBrowHR.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleEye1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleEye1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleEye2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleEye2.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleEye3
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleEye3.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleEye4
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleEye4.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleEye5
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleEye5.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleFace Old
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleFace
+      Old.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleFace
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleFace.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleGloves
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleGloves.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleHair1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleHair1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleHair2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleHair2.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleHair3
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleHair3.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleJeans
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleJeans.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MalePants
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MalePants.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleRobe Hood
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleRobe
+      Hood.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleRobe Shoes
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleRobe
+      Shoes.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleRobe
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleRobe.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleShirt1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleShirt1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleShirt2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleShirt2.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleShirt3
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleShirt3.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleShorts1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleShorts1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleShorts2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Examples/HumanMale/Recipes/WardrobeRecipes/MaleShorts2.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: PlaceholderWardrobeRecipe
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/PlaceholderAssets/Resources/Recipes/PlaceholderWardrobeRecipe.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: DynamicUMADnaAsset
+    _Name: EyeSpacing
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/DNA/DynamicDNA/EyeSpacing.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: DynamicUMADnaAsset
+    _Name: HumanFemaleDNA 1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/DNA/DynamicDNA/HumanFemaleDNA 1.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: DynamicUMADnaAsset
+    _Name: HumanGirlDNA
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanFemale/DNA/DynamicDNA/HumanGirl/HumanGirlDNA.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: DynamicUMADnaAsset
+    _Name: HumanMaleDynamicDnaAsset
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Content/UMA_Core/HumanMale/DNA/DynamicDNA/HumanMaleDynamicDnaAsset.asset
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: Editing Expression Clips
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Expressions Examples/Scenes/Editing Expression Clips.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: PhotoboothREADME
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/PhotoBooth/PhotoboothREADME.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: PlaceholderAssetsREADME
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/PlaceholderAssets/PlaceholderAssetsREADME.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: Bob
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/Bob.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: Fram
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/Fram.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: Gobs
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/Gobs.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: HandsGuy
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/HandsGuy.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: HumanFemaleDancer1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/HumanFemaleDancer1.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: HumanFemalePixi
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/HumanFemalePixi.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: HumanMale1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/HumanMale1.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: HumanMale2
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/HumanMale2.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: HumanMaleChallenger
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/HumanMaleChallenger.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: HumanMaleRoyalChallenger
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/HumanMaleRoyalChallenger.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: ToonBigAndFat
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/ToonBigAndFat.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: ToonFemaleDancer1c
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/ToonFemaleDancer1c.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: ToonFemaleStarDancer1c
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/ToonFemaleStarDancer1c.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: Troll1c
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/Troll1c.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: WerewolfCamp1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/WerewolfCamp1.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: WerewolfClothed1
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Extensions Examples/DynamicCharacterSystem/Assets/Resources/CharacterRecipes/WerewolfClothed1.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: Tuffy Font LICENSE
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/Fonts/Tuffy Font LICENSE.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: NoEmotionHDRs
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Assets/Textures/Skyboxes/NoEmotion/NoEmotionHDRs.txt
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: ReadMe - Networking Demo
+    _SerializedItem: {fileID: 0}
+    _Path: Assets/UMA/Examples/Main Examples/Scenes/ReadMe - Networking Demo.txt
+    IsResource: 0
+    IsAssetBundle: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 155698}
+  m_IsPrefabParent: 1

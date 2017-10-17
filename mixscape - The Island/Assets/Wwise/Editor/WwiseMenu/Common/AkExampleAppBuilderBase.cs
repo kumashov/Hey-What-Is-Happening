@@ -11,7 +11,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Collections.Generic;
 
-/// @brief This is an exemple that shows the steps to create a custom build for Unity applications that use Wwise.
+/// @brief This is an example that shows the steps to create a custom build for Unity applications that use Wwise.
 /// The build can be started by selecting a target platform and adding scenes to the build in the build settings (File->Build Settings) 
 /// and by clicking on "File->Build Unity-Wwise project" on the menu bar.
 /// The steps to build a Unity-Wwise project are as follow:
@@ -21,8 +21,8 @@ using System.Collections.Generic;
 
 public class AkExampleAppBuilderBase : MonoBehaviour
 {
-    //[MenuItem("File/Build Unity-Wwise Project")] 
-    public static bool Build()
+	//[UnityEditor.MenuItem("File/Build Unity-Wwise Project")] 
+	public static bool Build()
     {
         //Choose app name and location
         string appPath = EditorUtility.SaveFilePanel("Build Unity-Wwise project", 										//window title
@@ -30,11 +30,11 @@ public class AkExampleAppBuilderBase : MonoBehaviour
                                                         "Unity_Wwise_app", 													//Default app name
                                                         getPlatFormExtension()												//app extension (depends on target platform)
                                                      );
-        //check if the build was cancelled
+        //check if the build was canceled
         bool isUserCancelledBuild = appPath == "";
         if (isUserCancelledBuild)
         {
-            UnityEngine.Debug.Log("WwiseUnity: User cancelled the build.");
+            UnityEngine.Debug.Log("WwiseUnity: User canceled the build.");
             return false;
         }
 
@@ -51,7 +51,7 @@ public class AkExampleAppBuilderBase : MonoBehaviour
         string sourceSoundBankFolder = Path.Combine(wwiseProjectFolder, AkBasePathGetter.GetPlatformBasePath());
 
         //get soundbank destination in the Unity project for the current platform target
-        string destinationSoundBankFolder = Path.Combine(Application.dataPath + "\\StreamingAssets", 								//Soundbank must be inside the StreamingAssets folder
+        string destinationSoundBankFolder = Path.Combine(Application.dataPath + Path.DirectorySeparatorChar + "StreamingAssets", 								//Soundbank must be inside the StreamingAssets folder
                                                                 Path.Combine(WwiseSetupWizard.Settings.SoundbankPath, wwisePlatformString)
                                                             );
 
@@ -80,7 +80,7 @@ public class AkExampleAppBuilderBase : MonoBehaviour
                                         BuildOptions.None
                                     );
 
-        //Delete the soundbank from the unity project so they dont get copied in the game folder of fututre builds
+        //Delete the soundbank from the unity project so they don't get copied in the game folder of future builds
         Directory.Delete(destinationSoundBankFolder, true);
 
         return true;
@@ -103,18 +103,9 @@ public class AkExampleAppBuilderBase : MonoBehaviour
                 )
             return "Mac";
 
-#if UNITY_5
         else if (unityPlatormString == BuildTarget.iOS.ToString())
-#else
-		else if(unityPlatormString == BuildTarget.iOS.ToString())
-#endif
             return "iOS";
-#if !UNITY_5_5_OR_NEWER
-        else if (unityPlatormString == BuildTarget.XBOX360.ToString())
-            return "Xbox360";
-#endif
 
-        //Android, PS3 and Wii have the correct strings in Wwise v2013.2.7 and Unity version 4.3.4
         return unityPlatormString;
     }
 
@@ -136,25 +127,12 @@ public class AkExampleAppBuilderBase : MonoBehaviour
                 )
             return "app";
 
-#if UNITY_5
         else if (unityPlatormString == BuildTarget.iOS.ToString())
-#else
-		else if(unityPlatormString == BuildTarget.iOS.ToString())
-#endif
             return "ipa";
 
         else if (unityPlatormString == BuildTarget.Android.ToString())
             return "apk";
-#if !UNITY_5_5_OR_NEWER
-        else if (unityPlatormString == BuildTarget.XBOX360.ToString())
-            return "XEX";
-        else if (unityPlatormString == BuildTarget.PS3.ToString())
-            return "self";
-#endif
         return "";
     }
-
 }
-
-
 #endif // #if UNITY_EDITOR

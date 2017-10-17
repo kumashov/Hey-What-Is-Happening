@@ -49,7 +49,7 @@ public class AkUnityEventHandlerInspector
 
     public void OnGUI()
     {
-        GUILayout.Space(3);
+        GUILayout.Space(EditorGUIUtility.standardVerticalSpacing);
 
         GUILayout.BeginVertical("Box");
 		{
@@ -92,7 +92,7 @@ public class AkUnityEventHandlerInspector
 		}
         GUILayout.EndVertical();
 
-        GUILayout.Space(3);
+        GUILayout.Space(EditorGUIUtility.standardVerticalSpacing);
     }
 
     List<uint> GetCurrentTriggers()

@@ -12,60 +12,7 @@ using System.Net;
 // This sets the order in which the menus appear.
 public enum AkWwiseMenuOrder : int
 {
-    AndroidDebug = 100,
-    AndroidProfile,
-    AndroidRelease,
-    IosDebug,
-    IosProfile,
-    IosRelease,
-    tvOSDebug,
-    tvOSProfile,
-    tvOSRelease,
-    Linux32Debug,
-    Linux32Profile,
-    Linux32Release,
-    Linux64Debug,
-    Linux64Profile,
-    Linux64Release,
-    MacDebug,
-    MacProfile,
-    MacRelease,
-    WSAWin32Debug,
-    WSAWin32Profile,
-    WSAWin32Release,
-    WSAArmDebug,
-    WSAArmProfile,
-    WSAArmRelease,
-    PS3Debug,
-    PS3Profile,
-    PS3Release,
-    PS4Debug,
-    PS4Profile,
-    PS4Release,
-    VitaDebug,
-    VitaProfile,
-    VitaRelease,
-    VitaHWDebug,
-    VitaHWProfile,
-    VitaHWRelease,
-    WiiUDebug,
-    WiiUProfile,
-    WiiURelease,
-    Win32Debug,
-    Win32Profile,
-    Win32Release,
-    Win64Debug,
-    Win64Profile,
-    Win64Release,
-    Xbox360Debug,
-    Xbox360Profile,
-    Xbox360Release,
-    XboxOneDebug,
-    XboxOneProfile,
-    XboxOneRelease,
-
-    ConvertIDs = 200,
-    Reinstall
+    ConvertIDs = 200
 }
 
 public enum AkWwiseWindowOrder : int
@@ -352,14 +299,7 @@ public class AkDocHelper
             request.Credentials = CredentialCache.DefaultNetworkCredentials;
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
-            if (response.StatusCode == HttpStatusCode.OK)
-            {
-                isConnected = true;
-            }
-            else
-            {
-                isConnected = false;
-            }
+			isConnected = (response.StatusCode == HttpStatusCode.OK);
         }
         catch (Exception)
         {

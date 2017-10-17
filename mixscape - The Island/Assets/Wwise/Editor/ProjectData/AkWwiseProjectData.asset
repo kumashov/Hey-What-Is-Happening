@@ -11,15 +11,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e2ee1ec3a68d1a48959b70275645674, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
+  CurrentPluginConfig: 
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}'
-    m_lastTimePsrt1: -1702420224
-    m_lastTimePart2: -1999302155
+    m_lastTimePsrt1: -371906127
+    m_lastTimePart2: -1999301221
     List:
+    - Name: ChangeEnv_Beach
+      Path: Default Work Unit\ChangeEnv_Beach
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ChangeEnv_Beach
+        ObjectType: 3
+      ID: 589560950
+      Guid: 785d71cf96c3544f8ecd28f23b17f200
+      maxAttenuation: 0
     - Name: ChangeEnv_Cave
-      Path: Default Work Unit/ChangeEnv_Cave
+      Path: Default Work Unit\ChangeEnv_Cave
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -29,7 +40,7 @@ MonoBehaviour:
       Guid: 1663d0648e6593478a36c61479c4c4d8
       maxAttenuation: 0
     - Name: ChangeEnv_Forest
-      Path: Default Work Unit/ChangeEnv_Forest
+      Path: Default Work Unit\ChangeEnv_Forest
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -39,7 +50,7 @@ MonoBehaviour:
       Guid: 729510166d0c8b4489bfe5f632105206
       maxAttenuation: 0
     - Name: ChangeEnv_Outside
-      Path: Default Work Unit/ChangeEnv_Outside
+      Path: Default Work Unit\ChangeEnv_Outside
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -49,7 +60,7 @@ MonoBehaviour:
       Guid: 5dbc6ddc3df0544d8d48e0a86141d3dc
       maxAttenuation: 0
     - Name: ChangeEnv_Underwater
-      Path: Default Work Unit/ChangeEnv_Underwater
+      Path: Default Work Unit\ChangeEnv_Underwater
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -59,7 +70,7 @@ MonoBehaviour:
       Guid: a7eff48126f65e488b48ada12a616cd1
       maxAttenuation: 0
     - Name: EnterUnderwater
-      Path: Default Work Unit/EnterUnderwater
+      Path: Default Work Unit\EnterUnderwater
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -69,7 +80,7 @@ MonoBehaviour:
       Guid: fd563437ef653b47b505f7449426a83a
       maxAttenuation: 0
     - Name: ExitUnderwater
-      Path: Default Work Unit/ExitUnderwater
+      Path: Default Work Unit\ExitUnderwater
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -79,7 +90,7 @@ MonoBehaviour:
       Guid: e22946dadba349429b3aafff6b744458
       maxAttenuation: 0
     - Name: Footsteps
-      Path: Default Work Unit/Footsteps
+      Path: Default Work Unit\Footsteps
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -89,7 +100,7 @@ MonoBehaviour:
       Guid: 0d97b73199417e42930e7b2469461649
       maxAttenuation: 0
     - Name: Greeting
-      Path: Default Work Unit/Greeting
+      Path: Default Work Unit\Greeting
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -99,7 +110,7 @@ MonoBehaviour:
       Guid: 606fae1ca8e8ae45b54dc053d731a21d
       maxAttenuation: 0
     - Name: Jump
-      Path: Default Work Unit/Jump
+      Path: Default Work Unit\Jump
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -109,7 +120,7 @@ MonoBehaviour:
       Guid: c4b67e406c6619419576d76aa7663781
       maxAttenuation: 0
     - Name: Land
-      Path: Default Work Unit/Land
+      Path: Default Work Unit\Land
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -119,7 +130,7 @@ MonoBehaviour:
       Guid: a1ce79238a65ac479f475508ed01b752
       maxAttenuation: 0
     - Name: LowRegisterGreeting
-      Path: Default Work Unit/LowRegisterGreeting
+      Path: Default Work Unit\LowRegisterGreeting
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -129,7 +140,7 @@ MonoBehaviour:
       Guid: bc61954c3a67af4babafc8e58d44f245
       maxAttenuation: 0
     - Name: LowRegisterResponse
-      Path: Default Work Unit/LowRegisterResponse
+      Path: Default Work Unit\LowRegisterResponse
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -139,7 +150,7 @@ MonoBehaviour:
       Guid: aa023ebfb5a2f844b8e98d0485baf2c8
       maxAttenuation: 0
     - Name: Response
-      Path: Default Work Unit/Response
+      Path: Default Work Unit\Response
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -149,14 +160,14 @@ MonoBehaviour:
       Guid: 2a2273929d2d04458d97aa812214707a
       maxAttenuation: 0
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{5654317E-C7A5-40DD-B22C-0EBA3BC60611}'
-    m_lastTimePsrt1: -1702420224
-    m_lastTimePart2: -1999302155
+    m_lastTimePsrt1: 690975875
+    m_lastTimePart2: -1999301229
     List:
     - Name: Cave
-      Path: Default Work Unit/Master Audio Bus/Cave
+      Path: Default Work Unit\Master Audio Bus\Cave
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -167,7 +178,7 @@ MonoBehaviour:
       ID: -172573602
       Guid: d8a17ba1fa6bce439db758225a524138
     - Name: Forest
-      Path: Default Work Unit/Master Audio Bus/Forest
+      Path: Default Work Unit\Master Audio Bus\Forest
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -178,7 +189,7 @@ MonoBehaviour:
       ID: 491961918
       Guid: ef929c4e077bcf4d80c705550d7485cd
     - Name: Outside
-      Path: Default Work Unit/Master Audio Bus/Outside
+      Path: Default Work Unit\Master Audio Bus\Outside
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -189,7 +200,7 @@ MonoBehaviour:
       ID: 438105790
       Guid: 0346cdc4d23b974b9e5f3832f5b07b05
     - Name: Underwater
-      Path: Default Work Unit/Master Audio Bus/Underwater
+      Path: Default Work Unit\Master Audio Bus\Underwater
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -200,21 +211,21 @@ MonoBehaviour:
       ID: -2081729634
       Guid: 843b3b105e533f4f8d96dca8460c6073
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{85298554-70E1-4A82-B6A3-260F7E5D6273}'
-    m_lastTimePsrt1: -1702420224
-    m_lastTimePart2: -1999302155
+    m_lastTimePsrt1: 691726408
+    m_lastTimePart2: -1999301229
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{E8E17F83-DB24-4756-A5E8-A5CDE0FDBFE3}'
-    m_lastTimePsrt1: -1702420224
-    m_lastTimePart2: -1999302155
+    m_lastTimePsrt1: 691401180
+    m_lastTimePart2: -1999301229
     List:
     - Name: TerrainSwitchGroup
-      Path: Default Work Unit/TerrainSwitchGroup
+      Path: Default Work Unit\TerrainSwitchGroup
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -243,14 +254,14 @@ MonoBehaviour:
       - bytes: 4765944f32115d48958cafde84ec53be
       - bytes: d77d4535769a8b4f941dd486bb275cc2
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{E0A930E7-5E15-4E01-B06D-C6C7DACCD5BF}'
-    m_lastTimePsrt1: -1702420224
-    m_lastTimePart2: -1999302155
+    m_lastTimePsrt1: -69702142
+    m_lastTimePart2: -1999301221
     List:
     - Name: Main
-      Path: Default Work Unit/Main
+      Path: Default Work Unit\Main
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -259,7 +270,7 @@ MonoBehaviour:
       ID: -1133058374
       Guid: 6017f35f4be5624aaec217e66430d0fc
     - Name: Underwater
-      Path: Default Work Unit/Underwater
+      Path: Default Work Unit\Underwater
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -268,7 +279,7 @@ MonoBehaviour:
       ID: -2081729634
       Guid: 17b6d0d508a0c64cb06782928c11e8de
     - Name: VoiceOver
-      Path: Default Work Unit/VoiceOver
+      Path: Default Work Unit\VoiceOver
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -276,6 +287,134 @@ MonoBehaviour:
         ObjectType: 7
       ID: -253309925
       Guid: 48ccc83017ea0e40a063b8d33addea4f
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{FF988748-8116-4D5F-8253-AC2A1C3348B9}'
+    m_lastTimePsrt1: 691446207
+    m_lastTimePart2: -1999301229
+    List:
+    - Name: player_scale
+      Path: Default Work Unit\player_scale
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: player_scale
+        ObjectType: 13
+      ID: -1433171191
+      Guid: f8f2ee9f43d29e47839234de735905ab
+    - Name: player_speed
+      Path: Default Work Unit\player_speed
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: player_speed
+        ObjectType: 13
+      ID: 1062779386
+      Guid: 12f313c7b6e3fe49962198fe3b693d10
+  - PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
+    ParentPhysicalPath: 
+    Guid: '{3B167755-FB42-458B-98BF-96F557AFB3B9}'
+    m_lastTimePsrt1: 691696389
+    m_lastTimePart2: -1999301229
+    List:
+    - Name: SS_Air_Fear
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fear
+        ObjectType: 13
+      ID: 1351367891
+      Guid: 59062ef746431c4ea1b1dab46a05101e
+    - Name: SS_Air_Freefall
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Freefall
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Freefall
+        ObjectType: 13
+      ID: -1292209176
+      Guid: 37fe2d2f9e4f944d83d853cca39781ad
+    - Name: SS_Air_Fury
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fury
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fury
+        ObjectType: 13
+      ID: 1029930033
+      Guid: dc79aea23acaba4696529986c322a87b
+    - Name: SS_Air_Month
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Month
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Month
+        ObjectType: 13
+      ID: -1646418679
+      Guid: 45b4e209a3c47f44b3ca818a1d925ef7
+    - Name: SS_Air_Presence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Presence
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Presence
+        ObjectType: 13
+      ID: -447042342
+      Guid: 1a81b7e32f7b0f49b44f5fe51b468041
+    - Name: SS_Air_RPM
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_RPM
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_RPM
+        ObjectType: 13
+      ID: 822163944
+      Guid: ab9048a3d5b92645a64d5290c43ef2dc
+    - Name: SS_Air_Size
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Size
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Size
+        ObjectType: 13
+      ID: -1220270574
+      Guid: efeb291393a12e47a38c64668b494879
+    - Name: SS_Air_Storm
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Storm
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Storm
+        ObjectType: 13
+      ID: -579304704
+      Guid: db8c3fe9d1063747acaf7cd44bbed783
+    - Name: SS_Air_TimeOfDay
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_TimeOfDay
+        ObjectType: 13
+      ID: -1091570167
+      Guid: 2ca76f537e8c8b4cae03ef34fdadc314
+    - Name: SS_Air_Turbulence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Turbulence
+        ObjectType: 13
+      ID: -134719478
+      Guid: 197ba8edaa73a0409f192073606db710
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{C995127F-3283-4F64-AC2D-7B8A371770C7}'
+    m_lastTimePsrt1: 691671364
+    m_lastTimePart2: -1999301229
+    List: []
   ExpandedItems:
   - /mixscape_WwiseProject
   - /mixscape_WwiseProject/Events
@@ -290,3 +429,4 @@ MonoBehaviour:
   streamingPoolSize: 1024
   preparePoolSize: 0
   memoryCutoffThreshold: 0.95
+  callbackManagerBufferSize: 4

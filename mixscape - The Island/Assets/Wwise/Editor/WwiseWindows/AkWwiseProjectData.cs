@@ -113,7 +113,6 @@ public class AkWwiseProjectData : ScriptableObject
         }
     }
 
-
 	[Serializable]
 	public class EventWorkUnit : WorkUnit
 	{
@@ -145,12 +144,10 @@ public class AkWwiseProjectData : ScriptableObject
             ObjectType = objType;
         }
     }
-    
-#if UNITY_5
-    public string CurrentPluginConfig;
-#endif
 
-    public enum WwiseObjectType
+    public string CurrentPluginConfig;
+
+	public enum WwiseObjectType
     {
         // Insert Wwise icons description here
         NONE,
@@ -165,7 +162,9 @@ public class AkWwiseProjectData : ScriptableObject
         STATEGROUP,
         SWITCH,
         SWITCHGROUP,
-        WORKUNIT
+        WORKUNIT,
+        GAMEPARAMETER,
+        TRIGGER
     }
 
 	//Can't use a list of WorkUnit and cast it when needed because unity will serialize it as 
@@ -175,6 +174,8 @@ public class AkWwiseProjectData : ScriptableObject
 	public List<GroupValWorkUnit>	StateWwu 	= new List<GroupValWorkUnit>();
 	public List<GroupValWorkUnit>	SwitchWwu 	= new List<GroupValWorkUnit>();
 	public List<AkInfoWorkUnit>		BankWwu		= new List<AkInfoWorkUnit>();
+	public List<AkInfoWorkUnit>		RtpcWwu		= new List<AkInfoWorkUnit>();
+    public List<AkInfoWorkUnit>     TriggerWwu  = new List<AkInfoWorkUnit>();
 
 	//Contains the path of all items that are expanded in the Wwise picker
 	public List<string> ExpandedItems = new List<string> ();
@@ -207,6 +208,14 @@ public class AkWwiseProjectData : ScriptableObject
         {
             return ArrayList.Adapter(BankWwu);
         }
+        else if (String.Equals(in_wwuType, "Game Parameters", StringComparison.OrdinalIgnoreCase))
+        {
+            return ArrayList.Adapter(RtpcWwu);
+        }
+        else if (String.Equals(in_wwuType, "Triggers", StringComparison.OrdinalIgnoreCase))
+        {
+            return ArrayList.Adapter(TriggerWwu);
+        }
 
         return null;
     }
@@ -221,7 +230,10 @@ public class AkWwiseProjectData : ScriptableObject
 		{
 			return new GroupValWorkUnit();
 		}
-		else if(String.Equals(in_wwuType, "Master-Mixer Hierarchy", StringComparison.OrdinalIgnoreCase) || String.Equals(in_wwuType, "SoundBanks", StringComparison.OrdinalIgnoreCase))
+		else if(String.Equals(in_wwuType, "Master-Mixer Hierarchy", StringComparison.OrdinalIgnoreCase) 
+            || String.Equals(in_wwuType, "SoundBanks", StringComparison.OrdinalIgnoreCase) 
+            || String.Equals(in_wwuType, "Game Parameters", StringComparison.OrdinalIgnoreCase)
+            || String.Equals(in_wwuType, "Triggers", StringComparison.OrdinalIgnoreCase))
 		{
 			return new AkInfoWorkUnit();
 		}
@@ -251,6 +263,14 @@ public class AkWwiseProjectData : ScriptableObject
 		{
 			return true;
 		}
+        else if (String.Equals(in_wwuType, "Game Parameters", StringComparison.OrdinalIgnoreCase))
+        {
+            return true;
+        }
+        else if (String.Equals(in_wwuType, "Triggers", StringComparison.OrdinalIgnoreCase))
+        {
+            return true;
+        }
 		
 		return false;
 	}
@@ -380,6 +400,7 @@ public class AkWwiseProjectData : ScriptableObject
 	public int streamingPoolSize = AkInitializer.c_StreamingPoolSize;
 	public int preparePoolSize = AkInitializer.c_PreparePoolSize;
 	public float memoryCutoffThreshold = AkInitializer.c_MemoryCutoffThreshold;
+	public int callbackManagerBufferSize = AkInitializer.c_CallbackManagerBufferSize;
 
 	public void SaveInitSettings(AkInitializer in_AkInit)
 	{
@@ -389,9 +410,8 @@ public class AkWwiseProjectData : ScriptableObject
 		}
 		if (!CompareInitSettings(in_AkInit))
 		{
-#if UNITY_5_3_OR_NEWER
 			Undo.RecordObject(this, "Save Init Settings");
-#endif
+
 			basePath = in_AkInit.basePath;
 			language = in_AkInit.language;
 			defaultPoolSize = in_AkInit.defaultPoolSize;
@@ -399,19 +419,16 @@ public class AkWwiseProjectData : ScriptableObject
 			streamingPoolSize = in_AkInit.streamingPoolSize;
 			preparePoolSize = in_AkInit.preparePoolSize;
 			memoryCutoffThreshold = in_AkInit.memoryCutoffThreshold;
-#if !UNITY_5_3_OR_NEWER
-			EditorUtility.SetDirty(this);
-#endif
-		}
+			callbackManagerBufferSize = in_AkInit.callbackManagerBufferSize;
+}
 	}
 
 	public void CopyInitSettings(AkInitializer in_AkInit)
 	{
 		if (!CompareInitSettings(in_AkInit))
 		{
-#if UNITY_5_3_OR_NEWER
 			Undo.RecordObject(in_AkInit, "Copy Init Settings");
-#endif
+
 			in_AkInit.basePath = basePath;
 			in_AkInit.language = language;
 			in_AkInit.defaultPoolSize = defaultPoolSize;
@@ -419,9 +436,7 @@ public class AkWwiseProjectData : ScriptableObject
 			in_AkInit.streamingPoolSize = streamingPoolSize;
 			in_AkInit.preparePoolSize = preparePoolSize;
 			in_AkInit.memoryCutoffThreshold = memoryCutoffThreshold;
-#if !UNITY_5_3_OR_NEWER
-			EditorUtility.SetDirty(in_AkInit);
-#endif
+			in_AkInit.callbackManagerBufferSize = callbackManagerBufferSize;
 		}
 	}
 
@@ -433,7 +448,8 @@ public class AkWwiseProjectData : ScriptableObject
 			lowerPoolSize == in_AkInit.lowerPoolSize &&
 			streamingPoolSize == in_AkInit.streamingPoolSize &&
 			preparePoolSize == in_AkInit.preparePoolSize &&
-			memoryCutoffThreshold == in_AkInit.memoryCutoffThreshold;
+			memoryCutoffThreshold == in_AkInit.memoryCutoffThreshold &&
+			callbackManagerBufferSize == in_AkInit.callbackManagerBufferSize;
 	}
 
 	public float GetEventMaxAttenuation(int in_eventID)
@@ -456,5 +472,7 @@ public class AkWwiseProjectData : ScriptableObject
 		SwitchWwu = new List<GroupValWorkUnit>();
         BankWwu = new List<AkInfoWorkUnit>();
 		AuxBusWwu = new List<AkInfoWorkUnit>();
+        RtpcWwu = new List<AkInfoWorkUnit>();
+        TriggerWwu = new List<AkInfoWorkUnit>();
     }
 }

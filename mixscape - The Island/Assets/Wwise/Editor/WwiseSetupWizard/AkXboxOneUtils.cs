@@ -3,7 +3,7 @@ using UnityEditor;
 
 public class AkXboxOneUtils
 {
-	[MenuItem("Assets/Wwise/Xbox One/Enable Network Sockets")]
+	[UnityEditor.MenuItem("Assets/Wwise/Xbox One/Enable Network Sockets")]
 	public static void EnableXboxOneNetworkSockets()
 	{
         string[] SocketNames = { "WwiseDiscoverySocket", "WwiseCommandSocket", "WwiseNotificationSocket" };

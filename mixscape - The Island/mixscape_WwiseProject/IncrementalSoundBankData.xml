@@ -9,10 +9,16 @@
 				<File Name="Underwater" Hash="2724522710" Timestamp="131434377983371873"/>
 				<File Name="VoiceOver" Hash="2473387863" Timestamp="131434377983507033"/>
 			</Language>
+			<Language ID="393239870">
+				<File Name="Init" Hash="2112271405" Timestamp="131527449895326152"/>
+				<File Name="Main" Hash="1527900869" Timestamp="131527449977497653"/>
+				<File Name="Underwater" Hash="1579024096" Timestamp="131527414164704613"/>
+				<File Name="VoiceOver" Hash="1970036901" Timestamp="131527414164787593"/>
+			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2679143233" Timestamp="131434490024479605"/>
+				<File Name="" Hash="2045741829" Timestamp="131527449977572719"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

@@ -13,7 +13,7 @@ public class AkWwiseIDConverterMenu : MonoBehaviour {
 	private static AkWwiseIDConverter m_converter = new AkWwiseIDConverter(Application.dataPath);
 
 
-	[MenuItem("Assets/Wwise/Convert Wwise SoundBank IDs", false, (int)AkWwiseMenuOrder.ConvertIDs)]
+	[UnityEditor.MenuItem("Assets/Wwise/Convert Wwise SoundBank IDs", false, (int)AkWwiseMenuOrder.ConvertIDs)]
 	public static void ConvertWwiseSoundBankIDs () {
 		m_converter.Convert(true);
 	}

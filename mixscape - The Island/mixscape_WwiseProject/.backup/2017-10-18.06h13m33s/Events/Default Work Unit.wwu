@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footsteps" ID="{31B7970D-4199-427E-930E-7B2469461649}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D26FBCB8-07FD-405A-94B2-4EBECCE5B630}" ShortID="114524249" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0CFC6736-0555-4FA1-A31D-F6B1C0020932}" Global="false">
+									<ObjectRef Name="FootstepsSwitch" ID="{1A602F71-D7A2-41FA-A206-B735E6C9DBD0}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Jump" ID="{407EB6C4-666C-4119-9576-D76AA7663781}">
+					<ChildrenList>
+						<Action Name="Play" ID="{17A56BDB-51A0-4A40-B2CD-5DF79FEC8B02}" ShortID="844785903" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{026B04D8-AE42-45B5-8C17-B920F8E296F4}" Global="false">
+									<ObjectRef Name="Jump" ID="{DBAA3D4F-803A-4498-948B-9D6A32C59B23}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Land" ID="{2379CEA1-658A-47AC-9F47-5508ED01B752}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C60D8822-D996-4F9B-8E34-4DB9994D96E0}" ShortID="505863155" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{95B68FF9-4676-4AAD-AD06-7D3308A56F19}" Global="false">
+									<ObjectRef Name="Land" ID="{E58D467E-6B6F-4829-96C1-BD09C1031D4B}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LowRegisterGreeting" ID="{4C9561BC-673A-4BAF-ABAF-C8E58D44F245}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D4722DF4-0774-4B83-907C-F4B7D562C250}" ShortID="378499492" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7B92B073-C062-4EAB-B61B-CB9B61D4C6DA}" Global="false">
+									<ObjectRef Name="ted_greet" ID="{0A43CA39-F1FE-44C2-BB73-E1BFA462D5E6}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LowRegisterResponse" ID="{BF3E02AA-A2B5-44F8-B8E9-8D0485BAF2C8}">
+					<ChildrenList>
+						<Action Name="Play" ID="{06E69B7B-8BFE-4693-9864-84AE871E1E03}" ShortID="989329138" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F791E59C-F77D-47F8-93B4-2886DEFA1366}" Global="false">
+									<ObjectRef Name="hugo_response" ID="{6F74C9B6-7D46-4872-8034-B830AE3F48BA}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Greeting" ID="{1CAE6F60-E8A8-45AE-B54D-C053D731A21D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A087C9DD-18CE-4FD8-838F-F9619378040A}" ShortID="821549484" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C2535EDA-DF3D-452E-BBAE-7DDA2CC0310D}" Global="false">
+									<ObjectRef Name="lily_greet" ID="{0E4BF95C-A6D5-4009-9949-8039F60C7CE0}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Response" ID="{9273222A-2D9D-4504-8D97-AA812214707A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{38F1FD52-1DB7-4424-8FA4-2385B4A5F91A}" ShortID="945928388" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9F257E6A-937E-4CC4-97F2-821862D0B2B6}" Global="false">
+									<ObjectRef Name="lily_response" ID="{3BB971A1-53C2-464B-9A89-27957B9292C5}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EnterUnderwater" ID="{373456FD-65EF-473B-B505-F7449426A83A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A44F13B2-EE27-44A4-9BA4-2CB58A1FE74A}" ShortID="58394565" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{03533ABF-FD6E-4F54-95F7-2EC7B3A82AC6}" Global="false">
+									<ObjectRef Name="190085__tran5ient__splash9" ID="{7C1F366B-3609-42EA-A053-CDF3DBFB9284}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ExitUnderwater" ID="{DA4629E2-A3DB-4249-9B3A-AFFF6B744458}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E7856BC1-8B9B-4695-ACFA-28CD371C7D97}" ShortID="127523783" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E0B4FE93-4B71-4C93-9A95-5B9BB6EB0FC9}" Global="false">
+									<ObjectRef Name="269010__lwdickens__water-splash-3" ID="{71BCE515-E7C8-4CDC-B909-302C76ECBD0F}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ChangeEnv_Outside" ID="{DC6DBC5D-F03D-4D54-8D48-E0A86141D3DC}"/>
+				<Event Name="ChangeEnv_Underwater" ID="{81F4EFA7-F626-485E-8B48-ADA12A616CD1}"/>
+				<Event Name="ChangeEnv_Forest" ID="{16109572-0C6D-448B-89BF-E5F632105206}"/>
+				<Event Name="ChangeEnv_Cave" ID="{64D06316-658E-4793-8A36-C61479C4C4D8}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

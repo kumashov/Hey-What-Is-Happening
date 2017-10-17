@@ -53,7 +53,7 @@ public class AkWwiseXMLBuilder
                 XmlNodeList soundBank = soundBanks[i].SelectNodes("SoundBank");
                 for (int j = 0; j < soundBank.Count; j++)
                 {
-                    bChanged = bChanged || SerialiseSoundBank(soundBank[j]);
+                    bChanged = SerialiseSoundBank(soundBank[j]) || bChanged;
                 }
             }
         }
@@ -69,7 +69,7 @@ public class AkWwiseXMLBuilder
             XmlNodeList events = includedEvents[i].SelectNodes("Event");
             for (int j = 0; j < events.Count; j++)
             {
-                bChanged = bChanged || SerialiseMaxAttenuation(events[j]);
+                bChanged = SerialiseMaxAttenuation(events[j]) || bChanged;
             }
         }
         return bChanged;

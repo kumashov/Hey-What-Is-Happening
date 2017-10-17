@@ -1,9 +1,24 @@
-#if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
+#if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
 #if UNITY_EDITOR
 using System;
 using UnityEngine;
 using UnityEditor;
-using UnityEditor.Callbacks;
+
+
+public class AkDragDropData
+{
+	public string name;
+	public Guid guid;
+	public int ID;
+	public string typeName;
+}
+
+public class AkDragDropGroupData : AkDragDropData
+{
+	public Guid groupGuid;
+	public int groupID;
+}
+
 
 /// <summary>
 ///  @brief This class is used to perform DragAndDrop operations from the AkWwisePicker to any GameObject.
@@ -16,133 +31,122 @@ using UnityEditor.Callbacks;
 [ExecuteInEditMode]
 public class AkDragDropHelper : MonoBehaviour
 {
-    void Awake()
-    {
-        // Need a minimum of 4 members in DragAndDrop generic data:
-		// GenericData[0] contains the component's name (string)
-		// GenericData[1] contains the component's Guid (Guid)
-		// GenericData[2] contains the component's AkGameObjID (int)
-		// GenericData[3] contains the object's type (string)
-        // We need two more fields for states and switches:
-		// GenericData[4] contains the state or switch group Guid (Guid)
-		// GenericData[5] contains the state or switch group AkGameObjID (int)
-		object[] DDInfo = (object[])DragAndDrop.GetGenericData ("AKWwiseDDInfo");
-		if( DDInfo != null && DDInfo.Length >= 4 )
-        {
-			Guid componentGuid = (Guid)DDInfo[1];
-			int ID = (int)DDInfo[2];
-			string type = (string)DDInfo[3];
-            switch(type)
-            {
-                case "AuxBus":
-                    CreateAuxBus(componentGuid, ID);
-                    break;
-                case "Event":
-					CreateAmbient(componentGuid, ID);
-                    break;
-                case "Bank":
-					CreateBank(componentGuid, (string)DDInfo[0]);
-                    break;
-                case "State":
-					if (DDInfo.Length == 6)
-                    {
-						CreateState(componentGuid, ID, (Guid)DDInfo[4], (int)DDInfo[5]);
-                    }
-                    break;
-                case "Switch":
-					if (DDInfo.Length == 6)
-                    {
-						CreateSwitch(componentGuid, ID, (Guid)DDInfo[4], (int)DDInfo[5]);
-                    }
-                    break;
-            }
-				
-			GUIUtility.hotControl = 0;
-        }
-    }
+	public static string DragDropIdentifier = "AKWwiseDDInfo";
 
+	void Awake()
+	{
+		var DDData = DragAndDrop.GetGenericData(DragDropIdentifier) as AkDragDropData;
+		var DDGroupData = DDData as AkDragDropGroupData;
 
-    
-    void Start()
-    {
-		// Don't forget to destroy the AkDragDropHelper when we're done!
-		Component.DestroyImmediate(this);
-    }
-
-    void CreateAuxBus(Guid componentGuid, int ID)
-    {
-        AkEnvironment[] akEnvironments = gameObject.GetComponents<AkEnvironment>();
-
-        bool found = false;
-        for (int i = 0; i < akEnvironments.Length; i++)
-        {
-			if (new Guid(akEnvironments[i].valueGuid) == componentGuid)
+		if (DDGroupData != null)
+		{
+			switch (DDData.typeName)
 			{
-				found = true;
-                break;
-            }
-        }
-
-        if (found == false)
-        {
-			AkEnvironment akEnvironment = Undo.AddComponent<AkEnvironment>(gameObject);
-			if (akEnvironment != null)
-            {
-				akEnvironment.valueGuid = componentGuid.ToByteArray();
-				akEnvironment.SetAuxBusID(ID);
+				case "State":
+					CreateState(DDGroupData);
+					break;
+				case "Switch":
+					CreateSwitch(DDGroupData);
+					break;
 			}
 		}
+		else if (DDData != null)
+		{
+			switch (DDData.typeName)
+			{
+				case "AuxBus":
+					CreateAuxBus(DDData);
+					break;
+				case "Event":
+					CreateAmbient(DDData);
+					break;
+				case "Bank":
+					CreateBank(DDData);
+					break;
+			}
+		}
+
+		GUIUtility.hotControl = 0;
 	}
 
-	void CreateAmbient(Guid componentGuid, int ID)
-    {
+	void Start()
+	{
+		// Don't forget to destroy the AkDragDropHelper when we're done!
+		Component.DestroyImmediate(this);
+	}
+
+	bool HasSameEnvironment(Guid auxBusGuid)
+	{
+		AkEnvironment[] akEnvironments = gameObject.GetComponents<AkEnvironment>();
+		for (int i = 0; i < akEnvironments.Length; i++)
+		{
+			if (new Guid(akEnvironments[i].valueGuid).Equals(auxBusGuid))
+				return true;
+		}
+
+		return false;
+	}
+
+	void CreateAuxBus(AkDragDropData DDData)
+	{
+		if (HasSameEnvironment(DDData.guid))
+			return;
+
+		AkEnvironment akEnvironment = Undo.AddComponent<AkEnvironment>(gameObject);
+		if (akEnvironment != null)
+			SetTypeValue(ref akEnvironment.valueGuid, ref akEnvironment.m_auxBusID, DDData);
+	}
+
+	void CreateAmbient(AkDragDropData DDData)
+	{
 		AkAmbient ambient = Undo.AddComponent<AkAmbient>(gameObject);
+		if (ambient != null)
+			SetTypeValue(ref ambient.valueGuid, ref ambient.eventID, DDData);
+	}
 
-        if (ambient != null)
-        {
-			ambient.valueGuid = componentGuid.ToByteArray();
-            ambient.eventID = ID;
-        }
-    }
-
-	void CreateBank(Guid componentGuid, string name)
-    {
+	void CreateBank(AkDragDropData DDData)
+	{
 		AkBank bank = Undo.AddComponent<AkBank>(gameObject);
 
 		if (bank != null)
-        {
-			bank.valueGuid = componentGuid.ToByteArray();
-			bank.bankName = name;
-        }
-    }
+		{
+			int valueID = 0;
+			SetTypeValue(ref bank.valueGuid, ref valueID, DDData);
+			bank.bankName = DDData.name;
+		}
+	}
 
-    void CreateState(Guid componentGuid, int ID, Guid groupGuid, int groupID)
-    {
+	void CreateState(AkDragDropGroupData DDGroupData)
+	{
 		AkState akState = Undo.AddComponent<AkState>(gameObject);
-		
 		if (akState != null)
-        {
-			akState.groupGuid = groupGuid.ToByteArray();
-			akState.groupID = groupID;
-            akState.valueGuid = componentGuid.ToByteArray();
-            akState.valueID = ID;
-        }
-    }
+		{
+			SetTypeValue(ref akState.valueGuid, ref akState.valueID, DDGroupData);
+			SetGroupTypeValue(ref akState.groupGuid, ref akState.groupID, DDGroupData);
+		}
+	}
 
-    void CreateSwitch(Guid componentGuid, int ID, Guid groupGuid, int groupID)
-    {
+	void CreateSwitch(AkDragDropGroupData DDGroupData)
+	{
 		AkSwitch akSwitch = Undo.AddComponent<AkSwitch>(gameObject);
-		
 		if (akSwitch != null)
-        {
-			akSwitch.groupGuid = groupGuid.ToByteArray();
-			akSwitch.groupID = groupID;
-			akSwitch.valueGuid = componentGuid.ToByteArray();
-			akSwitch.valueID = ID;
-        }
-    }
+		{
+			SetTypeValue(ref akSwitch.valueGuid, ref akSwitch.valueID, DDGroupData);
+			SetGroupTypeValue(ref akSwitch.groupGuid, ref akSwitch.groupID, DDGroupData);
+		}
+	}
 
+	void SetTypeValue(ref byte[] valueGuid, ref int ID, AkDragDropData DDData)
+	{
+		DDData.guid.ToByteArray().CopyTo(valueGuid, 0);
+		ID = DDData.ID;
+	}
 
+	void SetGroupTypeValue(ref byte[] groupGuid, ref int groupID, AkDragDropGroupData DDGroupData)
+	{
+		DDGroupData.groupGuid.ToByteArray().CopyTo(groupGuid, 0);
+		groupID = DDGroupData.groupID;
+	}
 }
 #endif // UNITY_EDITOR
-#endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
+#endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.

@@ -116,13 +116,13 @@ public class AkPlatformInitSettings : IDisposable {
     } 
   }
 
-  public AkSoundQuality eAudioQuality {
+  public uint uSampleRate {
     set {
-      AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_eAudioQuality_set(swigCPtr, (int)value);
+      AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_uSampleRate_set(swigCPtr, value);
 
     } 
     get {
-      AkSoundQuality ret = (AkSoundQuality)AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_eAudioQuality_get(swigCPtr);
+      uint ret = AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_uSampleRate_get(swigCPtr);
 
       return ret;
     } 

@@ -11,7 +11,6 @@
 public enum AkAudioOutputType {
   AkOutput_None = 0,
   AkOutput_Dummy,
-  AkOutput_MergeToMain,
   AkOutput_Main,
   AkOutput_Secondary,
   AkOutput_NumBuiltInOutputs,

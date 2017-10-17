@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E0A930E7-5E15-4E01-B06D-C6C7DACCD5BF}" SchemaVersion="75">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{E0A930E7-5E15-4E01-B06D-C6C7DACCD5BF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{5FF31760-E54B-4A62-AEC2-17E66430D0FC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Footsteps mixscape test03" ID="{48689C1A-7735-4000-8625-AB0864A91C96}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Jump" ID="{407EB6C4-666C-4119-9576-D76AA7663781}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footsteps" ID="{31B7970D-4199-427E-930E-7B2469461649}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DirtFootsteps" ID="{793E352A-1AF3-4307-99A5-D4108599B250}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footsteps mixscape test01" ID="{0F1DEC99-9F02-4353-9B49-7AB034D6EF1C}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Cave" ID="{A17BA1D8-6BFA-43CE-9DB7-58225A524138}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ChangeEnv_Forest" ID="{16109572-0C6D-448B-89BF-E5F632105206}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ChangeEnv_Cave" ID="{64D06316-658E-4793-8A36-C61479C4C4D8}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Land" ID="{2379CEA1-658A-47AC-9F47-5508ED01B752}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ChangeEnv_Underwater" ID="{81F4EFA7-F626-485E-8B48-ADA12A616CD1}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footsteps mixscape test02" ID="{B3C1D26F-AF83-4A34-9DBB-382A7E4B1335}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Outside" ID="{C4CD4603-3BD2-4B97-9E5F-3832F5B07B05}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footsteps mixscape test04" ID="{750D529C-9327-4C48-82DD-3078D92EB08A}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ChangeEnv_Outside" ID="{DC6DBC5D-F03D-4D54-8D48-E0A86141D3DC}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Forest" ID="{4E9C92EF-7B07-4DCF-80C7-05550D7485CD}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Underwater" ID="{103B3B84-535E-4F3F-8D96-DCA8460C6073}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="VoiceOver" ID="{30C8CC48-EA17-400E-A063-B8D33ADDEA4F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="LowRegisterResponse" ID="{BF3E02AA-A2B5-44F8-B8E9-8D0485BAF2C8}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Response" ID="{9273222A-2D9D-4504-8D97-AA812214707A}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Greeting" ID="{1CAE6F60-E8A8-45AE-B54D-C053D731A21D}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LowRegisterGreeting" ID="{4C9561BC-673A-4BAF-ABAF-C8E58D44F245}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Underwater" ID="{D5D0B617-A008-4CC6-B067-82928C11E8DE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="ExitUnderwater" ID="{DA4629E2-A3DB-4249-9B3A-AFFF6B744458}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EnterUnderwater" ID="{373456FD-65EF-473B-B505-F7449426A83A}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

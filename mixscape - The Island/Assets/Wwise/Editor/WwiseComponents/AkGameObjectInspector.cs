@@ -35,12 +35,14 @@ public class DefaultHandles
 public class AkGameObjectInspector : Editor
 {
 	AkGameObj m_AkGameObject;
+	SerializedProperty listeners;
 
 	bool hideDefaultHandle = false;
 
 	void OnEnable()
 	{
 		m_AkGameObject = target as AkGameObj;
+		listeners = serializedObject.FindProperty("m_listeners");
 
 		DefaultHandles.Hidden = hideDefaultHandle;
 	}
@@ -65,9 +67,7 @@ public class AkGameObjectInspector : Editor
 		AkGameObjPositionOffsetData positionOffsetData = m_AkGameObject.m_positionOffsetData;
 		Vector3 positionOffset = Vector3.zero;
 
-#if UNITY_5_3_OR_NEWER
 		EditorGUI.BeginChangeCheck();
-#endif
 
 		GUILayout.BeginVertical("Box");
 
@@ -82,7 +82,7 @@ public class AkGameObjectInspector : Editor
 		{
 			positionOffset = EditorGUILayout.Vector3Field("Position Offset", positionOffsetData.positionOffset);
 
-			GUILayout.Space(2);
+			GUILayout.Space(EditorGUIUtility.standardVerticalSpacing);
 
 			if (hideDefaultHandle)
 			{
@@ -106,58 +106,61 @@ public class AkGameObjectInspector : Editor
 
 		GUILayout.EndVertical();
 
-		GUILayout.Space(3);
+		GUILayout.Space(EditorGUIUtility.standardVerticalSpacing);
 
 		GUILayout.BeginVertical("Box");
 
 		bool isEnvironmentAware = EditorGUILayout.Toggle("Environment Aware:", m_AkGameObject.isEnvironmentAware);
 
-		if (isEnvironmentAware && m_AkGameObject.GetComponent<Rigidbody>() == null)
-		{
-			GUIStyle style = new GUIStyle();
-			style.normal.textColor = Color.red;
-			style.wordWrap = true;
-			GUILayout.Label("Objects affected by Environment need to have a RigidBody attached.", style);
-			if (GUILayout.Button("Add Rigidbody!"))
-			{
-				Rigidbody rb = m_AkGameObject.gameObject.AddComponent<Rigidbody>();
-				rb.useGravity = false;
-				rb.isKinematic = true;
-			}
-		}
-
 		GUILayout.EndVertical();
 
-		GUILayout.Space(3);
-
-		string[] maskLabels = new string[AkSoundEngine.AK_NUM_LISTENERS];
-		for (int i = 0; i < AkSoundEngine.AK_NUM_LISTENERS; i++)
-		{
-			maskLabels[i] = "L" + i;
-		}
-
-		int listenerMask = EditorGUILayout.MaskField("Listeners", m_AkGameObject.listenerMask, maskLabels);
-
-#if UNITY_5_3_OR_NEWER
 		if (EditorGUI.EndChangeCheck())
-#else
-		if (GUI.changed)
-#endif
 		{
-#if UNITY_5_3_OR_NEWER
 			Undo.RecordObject(target, "AkGameObj Parameter Change");
-#endif
+
 			m_AkGameObject.m_positionOffsetData = positionOffsetData;
 
 			if (positionOffsetData != null)
 				m_AkGameObject.m_positionOffsetData.positionOffset = positionOffset;
 
 			m_AkGameObject.isEnvironmentAware = isEnvironmentAware;
-			m_AkGameObject.listenerMask = listenerMask;
+		}
 
-#if !UNITY_5_3_OR_NEWER
-			EditorUtility.SetDirty(m_AkGameObject);
-#endif
+		if (isEnvironmentAware)
+			RigidbodyCheck(m_AkGameObject.gameObject);
+
+		GUILayout.Space(EditorGUIUtility.standardVerticalSpacing);
+
+		GUILayout.BeginVertical("Box");
+		{
+			EditorGUI.BeginChangeCheck();
+			EditorGUILayout.PropertyField(listeners);
+			if (EditorGUI.EndChangeCheck())
+				serializedObject.ApplyModifiedProperties();
+		}
+		GUILayout.EndVertical();
+	}
+
+	public static void RigidbodyCheck(GameObject gameObject)
+	{
+		if (WwiseSetupWizard.Settings.ShowMissingRigidBodyWarning && gameObject.GetComponent<Rigidbody>() == null)
+		{
+			GUILayout.Space(EditorGUIUtility.standardVerticalSpacing);
+
+			GUILayout.BeginVertical("Box");
+
+			GUIStyle style = new GUIStyle();
+			style.normal.textColor = Color.red;
+			style.wordWrap = true;
+			GUILayout.Label("AkGameObj-AkEnvironment interactions require a Rigidbody component on the object or the environment.", style);
+			if (GUILayout.Button("Add Rigidbody"))
+			{
+				Rigidbody rb = Undo.AddComponent<Rigidbody>(gameObject);
+				rb.useGravity = false;
+				rb.isKinematic = true;
+			}
+
+			GUILayout.EndVertical();
 		}
 	}
 
@@ -166,9 +169,7 @@ public class AkGameObjectInspector : Editor
 		if (m_AkGameObject.m_positionOffsetData == null)
 			return;
 
-#if UNITY_5_3_OR_NEWER
 		EditorGUI.BeginChangeCheck();
-#endif
 
 		// Transform local offset to world coordinate
 		Vector3 pos = m_AkGameObject.transform.TransformPoint(m_AkGameObject.m_positionOffsetData.positionOffset);
@@ -176,22 +177,12 @@ public class AkGameObjectInspector : Editor
 		// Get new handle position
 		pos = Handles.PositionHandle(pos, Quaternion.identity);
 
-#if UNITY_5_3_OR_NEWER
 		if (EditorGUI.EndChangeCheck())
-#else
-		if (GUI.changed)
-#endif
 		{
-#if UNITY_5_3_OR_NEWER
 			Undo.RecordObject(target, "Position Offset Change");
-#endif
 
-			// Transform wolrd offset to local coordintae
+			// Transform world offset to local coordinate
 			m_AkGameObject.m_positionOffsetData.positionOffset = m_AkGameObject.transform.InverseTransformPoint(pos);
-
-#if !UNITY_5_3_OR_NEWER
-			EditorUtility.SetDirty(target);
-#endif
 		}
 	}
 }

@@ -1,4 +1,4 @@
-#if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
+#if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
 //////////////////////////////////////////////////////////////////////
 //
 // Copyright (c) 2012 Audiokinetic Inc. / All Rights Reserved
@@ -17,8 +17,8 @@ using System.Threading;
 /// It must be present on one Game Object that gets destroyed last in the game.
 /// It must be executed AFTER any other monoBehaviors that use AkSoundEngine.
 /// \sa
-/// - \ref workingwithsdks_termination
-/// - AK::SoundEngine::Term()
+/// - <a href="https://www.audiokinetic.com/library/edge/?source=SDK&id=workingwithsdks__termination.html" target="_blank">Terminate the Different Modules of the Sound Engine</a> (Note: This is described in the Wwise SDK documentation.)
+/// - <a href="https://www.audiokinetic.com/library/edge/?source=SDK&id=namespace_a_k_1_1_sound_engine_a9176602bbe972da4acc1f8ebdb37f2bf.html#a9176602bbe972da4acc1f8ebdb37f2bf" target="_blank">AK::SoundEngine::Term()</a> (Note: This is described in the Wwise SDK documentation.)
 public class AkTerminator : MonoBehaviour
 {
 	static private AkTerminator ms_Instance = null;
@@ -39,7 +39,7 @@ public class AkTerminator : MonoBehaviour
 	
 	void OnApplicationQuit() 
 	{
-		//This happens before OnDestroy.  Stop the sound engine now.
+		//This happens before OnDestroy. Stop the sound engine now.
 		Terminate();
 		
 		// NOTE: AkCallbackManager needs to handle last few events after sound engine terminates
@@ -100,4 +100,4 @@ public class AkTerminator : MonoBehaviour
 		AkBankManager.Reset ();
 	}
 }
-#endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
+#endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.

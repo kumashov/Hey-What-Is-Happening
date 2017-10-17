@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	589560950	ChangeEnv_Beach			\Default Work Unit\ChangeEnv_Beach	
 	674522502	Land			\Default Work Unit\Land	
 	884831434	ChangeEnv_Cave			\Default Work Unit\ChangeEnv_Cave	
 	928611434	ChangeEnv_Outside			\Default Work Unit\ChangeEnv_Outside	
@@ -31,13 +32,32 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 Effect plug-ins	ID	Name	Type				Notes
 	1820854077	Noise_Gate_Fast_Attack	Wwise Expander			
 
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	254933026	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Ambiences\Beach birds\Silence\Wwise Silence	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	105681997	Footstep03	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\Footstep03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\DirtFootsteps\Footstep03		52872
-	488214762	Footstep01	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\Footstep01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\DirtFootsteps\Footstep01		48056
-	523273653	Footstep04	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\Footstep04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\DirtFootsteps\Footstep04		38368
-	611297062	Footstep02	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\Footstep02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\DirtFootsteps\Footstep02		49736
-	626485153	Land	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\Land_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Land		45482
-	697224158	269010__lwdickens__water-splash-3	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\269010__lwdickens__water-splash-3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\WaterFootsteps\269010__lwdickens__water-splash-3		183244
-	714319681	190085__tran5ient__splash9	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\190085__tran5ient__splash9_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\UnderwaterFootsteps\190085__tran5ient__splash9		320072
-	921952352	Jump	C:\workspace\boxhillcommjam\mixscape\mixscape_WwiseProject\.cache\Windows\SFX\Jump_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump		22390
+	32445555	forest_footsteps_05	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\forest_footsteps_05_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\DirtFootsteps\forest_footsteps_05		93684
+	86937421	forest_cold_wind_base_loop	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\forest_cold_wind_base_loop_9452F465.wem		\Actor-Mixer Hierarchy\Ambiences\Forest Ambience Loops\forest_cold_wind_base_loop		17664064
+	105681997	Footstep03	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\Footstep03_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\GrassFootsteps\Footstep03		52872
+	120686204	beach_seagul_cries_04	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\beach_seagul_cries_04_53CEE377.wem		\Actor-Mixer Hierarchy\Ambiences\Beach birds\beach_seagul_cries_04		125960
+	214827176	beach_ocean_wind_loop_01	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\beach_ocean_wind_loop_01_53CEE377.wem		\Actor-Mixer Hierarchy\Ambiences\Beach Ambience Loops\beach_ocean_wind_loop_01		22425664
+	254489205	beach_seagul_cries_03	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\beach_seagul_cries_03_53CEE377.wem		\Actor-Mixer Hierarchy\Ambiences\Beach birds\beach_seagul_cries_03		132620
+	273611757	forest_wind_highlights_02	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\forest_wind_highlights_02_53CEE377.wem		\Actor-Mixer Hierarchy\Ambiences\Forest Wind Highlights\forest_wind_highlights_02		640152
+	359007391	beach_seagul_cries_02	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\beach_seagul_cries_02_53CEE377.wem		\Actor-Mixer Hierarchy\Ambiences\Beach birds\beach_seagul_cries_02		154640
+	488214762	Footstep01	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\Footstep01_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\GrassFootsteps\Footstep01		48056
+	491858272	forest_crickets_and_dog_loop	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\forest_crickets_and_dog_loop_9452F465.wem		\Actor-Mixer Hierarchy\Ambiences\Forest Ambience Loops\forest_crickets_and_dog_loop		16128064
+	523273653	Footstep04	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\Footstep04_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\GrassFootsteps\Footstep04		38368
+	611297062	Footstep02	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\Footstep02_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\GrassFootsteps\Footstep02		49736
+	626485153	Land	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\Land_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Land		45482
+	654065316	forest_wind_highlights_01	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\forest_wind_highlights_01_53CEE377.wem		\Actor-Mixer Hierarchy\Ambiences\Forest Wind Highlights\forest_wind_highlights_01		825144
+	697224158	269010__lwdickens__water-splash-3	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\269010__lwdickens__water-splash-3_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\WaterFootsteps\269010__lwdickens__water-splash-3		183244
+	709668873	forest_footsteps_02	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\forest_footsteps_02_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\DirtFootsteps\forest_footsteps_02		123288
+	714319681	190085__tran5ient__splash9	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\190085__tran5ient__splash9_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\UnderwaterFootsteps\190085__tran5ient__splash9		320072
+	756246582	beach_seagul_cries_01	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\beach_seagul_cries_01_53CEE377.wem		\Actor-Mixer Hierarchy\Ambiences\Beach birds\beach_seagul_cries_01		131532
+	771368949	forest_footsteps_04	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\forest_footsteps_04_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\DirtFootsteps\forest_footsteps_04		123288
+	783146530	forest_wind_highlights_03	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\forest_wind_highlights_03_53CEE377.wem		\Actor-Mixer Hierarchy\Ambiences\Forest Wind Highlights\forest_wind_highlights_03		1433672
+	910890400	forest_forest_birds_ambience_loop_01	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\forest_forest_birds_ambience_loop_01_9452F465.wem		\Actor-Mixer Hierarchy\Ambiences\Forest Ambience Loops\forest_forest_birds_ambience_loop_01		19200064
+	921952352	Jump	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\Jump_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump		22390
+	927935009	forest_footsteps_01	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\forest_footsteps_01_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\DirtFootsteps\forest_footsteps_01		93684
+	999858560	forest_footsteps_03	C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\SFX\forest_footsteps_03_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\DirtFootsteps\forest_footsteps_03		121792
 

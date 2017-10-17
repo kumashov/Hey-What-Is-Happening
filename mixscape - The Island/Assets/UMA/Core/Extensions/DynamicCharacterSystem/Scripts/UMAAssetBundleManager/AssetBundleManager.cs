@@ -6,8 +6,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-/*  The AssetBundle Manager provides a High-Level API for working with AssetBundles. 
-    The AssetBundle Manager will take care of loading AssetBundles and their associated 
+/*  The AssetBundle Manager provides a High-Level API for working with AssetBundles.
+    The AssetBundle Manager will take care of loading AssetBundles and their associated
     Asset Dependencies.
         Initialize()
             Initializes the AssetBundle index object. This contains the standard Unity AssetBundleIndex data as well as an index of what assets are in what asset bundles
@@ -31,7 +31,7 @@ namespace UMAAssetBundleManager
 {
 
 	/// <summary>
-	/// After an asset bundles download or cache retrieval opertaion is complete a LoadaedAssetBundle object is created for it. 
+	/// After an asset bundles download or cache retrieval opertaion is complete a LoadaedAssetBundle object is created for it.
 	/// Loaded assetBundle contains the references count which can be used to unload dependent assetBundles automatically.
 	/// </summary>
 	public class LoadedAssetBundle
@@ -134,7 +134,7 @@ namespace UMAAssetBundleManager
 
 		/// <summary>
 		/// AssetBundleIndex object which can be used to check the contents of
-	   ///  any asset bundle without having to download it first. 
+	   ///  any asset bundle without having to download it first.
 		/// </summary>
 		public static AssetBundleIndex AssetBundleIndexObject
 		{
@@ -187,8 +187,9 @@ namespace UMAAssetBundleManager
 		{
 			if (Application.isEditor)
 				return "file://" + System.Environment.CurrentDirectory.Replace("\\", "/"); // Use the build output folder directly.
-			else if (Application.isWebPlayer)
+			/*else if (Application.isWebPlayer)
 				return System.IO.Path.GetDirectoryName(Application.absoluteURL).Replace("\\", "/") + "/StreamingAssets";
+				*/
 			else if (Application.isMobilePlatform || Application.isConsolePlatform)
 				return Application.streamingAssetsPath;
 			else // For standalone player.
@@ -369,7 +370,7 @@ namespace UMAAssetBundleManager
 		}
 
 		/// <summary>
-		/// Returns true if certain asset bundle has been downloaded regardless of whether its 
+		/// Returns true if certain asset bundle has been downloaded regardless of whether its
 		/// whether it's dependencies have been loaded.
 		/// </summary>
 		static public bool IsAssetBundleDownloaded(string assetBundleName)
@@ -418,7 +419,7 @@ namespace UMAAssetBundleManager
 		/// Initializes asset bundle namager and starts download of index asset bundle
 		/// </summary>
 		/// <returns>Returns the index asset bundle download operation object.</returns>
-		// TODO I think that the index should be available if the device is offline. 
+		// TODO I think that the index should be available if the device is offline.
 		// Right now I think ABM always tries to download the index and the game will break if it cant.
 		// What I think should happen is that if the game is offline it should still be able to get a cached index
 		static public AssetBundleLoadIndexOperation Initialize()
@@ -523,12 +524,12 @@ namespace UMAAssetBundleManager
 		}
 
 		/// <summary>
-		/// Checks who is responsible for determination of the correct asset bundle variant that should be loaded on this platform. 
-		/// 
+		/// Checks who is responsible for determination of the correct asset bundle variant that should be loaded on this platform.
+		///
 		/// On most platforms, this is done by the AssetBundleManager itself. However, on
 		/// certain platforms (iOS at the moment) it's possible that an external asset bundle
-		/// variant resolution mechanism is used. In these cases, we use base asset bundle 
-		/// name (without the variant tag) as the bundle identifier. The platform-specific 
+		/// variant resolution mechanism is used. In these cases, we use base asset bundle
+		/// name (without the variant tag) as the bundle identifier. The platform-specific
 		/// code is responsible for correctly loading the bundle.
 		/// </summary>
 		static protected bool UsesExternalBundleVariantResolutionMechanism(string baseAssetBundleName)

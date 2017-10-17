@@ -1,4 +1,4 @@
-#if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
+#if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
 //////////////////////////////////////////////////////////////////////
 //
 // Copyright (c) 2014 Audiokinetic Inc. / All Rights Reserved
@@ -13,7 +13,6 @@ using System.Collections.Generic;
 /// @brief Use this component to define an area that straddles two different AkEnvironments zones and allow mixing between both zones. \ref unity_use_AkEvironment_AkEvironmentPortal
 [AddComponentMenu("Wwise/AkEnvironmentPortal")]
 [RequireComponent (typeof(BoxCollider))]
-[RequireComponent (typeof(Rigidbody))]
 [ExecuteInEditMode]
 public class AkEnvironmentPortal : MonoBehaviour
 {
@@ -61,4 +60,4 @@ public class AkEnvironmentPortal : MonoBehaviour
 #endif
 }
 
-#endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
+#endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.

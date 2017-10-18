@@ -275,40 +275,6 @@
 						</Panner>
 					</PositioningInfo>
 				</RandomSequenceContainer>
-				<BlendContainer Name="Beach Ambience Loops" ID="{7D842A0C-0A0D-4B44-B6FE-FE33F3055F3F}" ShortID="831329964">
-					<PropertyList>
-						<Property Name="BlendBehavior" Type="int16" Value="1"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{427C21A7-22DB-4F46-988A-5CA082EB2F25}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="beach_ocean_wind_loop_01" ID="{7AD6007B-0EA8-4D01-B2DD-CD2BD46DF788}" ShortID="282964229">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{427C21A7-22DB-4F46-988A-5CA082EB2F25}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="beach_ocean_wind_loop_01" ID="{E7B907AB-23BD-46C5-91B4-CD720F20842B}" ShortID="214827176">
-									<Language>SFX</Language>
-									<AudioFile>beach_ocean_wind_loop_01.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="beach_ocean_wind_loop_01" ID="{E7B907AB-23BD-46C5-91B4-CD720F20842B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</BlendContainer>
 				<RandomSequenceContainer Name="Beach birds" ID="{4676DA1C-C095-4A37-97E1-27DE1BB1037C}" ShortID="531290730">
 					<PropertyList>
 						<Property Name="EnablePanner" Type="bool" Value="True"/>
@@ -512,6 +478,355 @@
 							</PropertyList>
 						</Panner>
 					</PositioningInfo>
+				</RandomSequenceContainer>
+				<Sound Name="beach_waves_close_calm_loop_01" ID="{BDED2310-0136-4416-8155-F1345D07115C}" ShortID="597179265">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{5DDB0F6F-2702-4E7F-A14E-7D19B73A1602}" ShortID="214317559">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="40"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{DF7AD76E-35F8-47B8-8B4E-CDA64F2353EE}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>40</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{1067F07D-B721-4BE1-96DD-B1FE5B7E151E}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>0.002</XPos>
+															<YPos>0</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>40</XPos>
+															<YPos>0</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{427C21A7-22DB-4F46-988A-5CA082EB2F25}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="beach_waves_close_calm_loop_01" ID="{96F9BDF8-9B57-40B3-B444-15F5D262F7F9}" ShortID="707932961">
+							<Language>SFX</Language>
+							<AudioFile>beach_waves_close_calm_loop_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="beach_waves_close_calm_loop_01" ID="{96F9BDF8-9B57-40B3-B444-15F5D262F7F9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="beach_ocean_wind_loop_01" ID="{7AD6007B-0EA8-4D01-B2DD-CD2BD46DF788}" ShortID="282964229">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{427C21A7-22DB-4F46-988A-5CA082EB2F25}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Parametric EQ (Custom)" ID="{3E4CE191-CAEB-471C-A678-9C30F4FBEF95}" ShortID="999371438" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<PropertyList>
+										<Property Name="FrequencyBand1" Type="Real32" Value="117"/>
+										<Property Name="GainBand1" Type="Real32" Value="-24"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="beach_ocean_wind_loop_01" ID="{E7B907AB-23BD-46C5-91B4-CD720F20842B}" ShortID="214827176">
+							<Language>SFX</Language>
+							<AudioFile>beach_ocean_wind_loop_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="beach_ocean_wind_loop_01" ID="{E7B907AB-23BD-46C5-91B4-CD720F20842B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Boat creaking" ID="{BB0DD5D4-A0E2-4D01-8870-19E9B7AEA32F}" ShortID="21331502">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{46E7A90B-67D1-4501-B3EB-13683F9F292D}" ShortID="561734791">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="10"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{5B39B32E-EBE8-4DE5-8D87-C251870A39CE}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>4.50794</XPos>
+															<YPos>-12.9516</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{427C21A7-22DB-4F46-988A-5CA082EB2F25}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="beach_boat_creaking_01" ID="{6585CD8F-BB69-4F87-BB03-D8537439045F}" ShortID="72348011">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FD473B79-FD46-42AC-BFEE-84FACEE1B7A8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-909"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>46</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{427C21A7-22DB-4F46-988A-5CA082EB2F25}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="beach_boat_creaking_01" ID="{AC856236-93E1-4AF2-A8A1-26F2B20BCAD6}" ShortID="757269489">
+									<Language>SFX</Language>
+									<AudioFile>beach_boat_creaking_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="beach_boat_creaking_01" ID="{AC856236-93E1-4AF2-A8A1-26F2B20BCAD6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="beach_boat_creaking_02" ID="{C373E5BD-C9CC-42EA-912B-3E88FE214FC6}" ShortID="101286134">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C1867FCA-B234-42FA-A554-C035A2C0DFA4}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-707"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>41</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{427C21A7-22DB-4F46-988A-5CA082EB2F25}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="beach_boat_creaking_02" ID="{55B7F124-9EA9-48E2-B098-C76DE06DCFDE}" ShortID="803039976">
+									<Language>SFX</Language>
+									<AudioFile>beach_boat_creaking_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="beach_boat_creaking_02" ID="{55B7F124-9EA9-48E2-B098-C76DE06DCFDE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="beach_boat_creaking_03" ID="{2F9BC7E4-B255-4154-9C78-CF150E912178}" ShortID="951877296">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6225D78A-DF8C-4C6E-84A9-B2F7FC4AEF72}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-606"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{427C21A7-22DB-4F46-988A-5CA082EB2F25}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="beach_boat_creaking_03" ID="{DCB2EA34-4EE0-4F57-861A-F8032EDCDCD3}" ShortID="402064066">
+									<Language>SFX</Language>
+									<AudioFile>beach_boat_creaking_03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="beach_boat_creaking_03" ID="{DCB2EA34-4EE0-4F57-861A-F8032EDCDCD3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Silence" ID="{315E7B5F-79EB-46C0-8816-BB03B4D1F266}" ShortID="1062577213">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>82</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{427C21A7-22DB-4F46-988A-5CA082EB2F25}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Silence" ID="{1EDEF167-752B-4555-B084-89DA8EAE42F5}" ShortID="936111746" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+									<PropertyList>
+										<Property Name="Length" Type="Real32" Value="2"/>
+										<Property Name="LengthMax" Type="Real32" Value="1.5"/>
+										<Property Name="LengthMin" Type="Real32" Value="-3"/>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Silence" ID="{1EDEF167-752B-4555-B084-89DA8EAE42F5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

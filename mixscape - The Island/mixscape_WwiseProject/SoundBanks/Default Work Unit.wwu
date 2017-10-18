@@ -10,15 +10,17 @@
 						<ObjectRef Name="Footsteps" ID="{31B7970D-4199-427E-930E-7B2469461649}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DirtFootsteps" ID="{793E352A-1AF3-4307-99A5-D4108599B250}" WorkUnitID="{2DC94DE3-14FE-49A4-9EAD-54FECBFDE2C8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Cave" ID="{A17BA1D8-6BFA-43CE-9DB7-58225A524138}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="beach_waves_close_calm_loop_01" ID="{BDED2310-0136-4416-8155-F1345D07115C}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ChangeEnv_Forest" ID="{16109572-0C6D-448B-89BF-E5F632105206}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Forest Ambience Loops" ID="{1ECE0C10-4D63-46FB-9117-F6D6D120CDFA}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ChangeEnv_Cave" ID="{64D06316-658E-4793-8A36-C61479C4C4D8}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Land" ID="{2379CEA1-658A-47AC-9F47-5508ED01B752}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ChangeEnv_Underwater" ID="{81F4EFA7-F626-485E-8B48-ADA12A616CD1}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Beach birds" ID="{4676DA1C-C095-4A37-97E1-27DE1BB1037C}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Beach Ambience Loops" ID="{7D842A0C-0A0D-4B44-B6FE-FE33F3055F3F}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Forest Wind Highlights" ID="{6521B5AF-49F8-4B66-ACCA-165CF2C6FD20}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Outside" ID="{C4CD4603-3BD2-4B97-9E5F-3832F5B07B05}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="beach_ocean_wind_loop_01" ID="{7AD6007B-0EA8-4D01-B2DD-CD2BD46DF788}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Boat creaking" ID="{BB0DD5D4-A0E2-4D01-8870-19E9B7AEA32F}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ChangeEnv_Outside" ID="{DC6DBC5D-F03D-4D54-8D48-E0A86141D3DC}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Forest" ID="{4E9C92EF-7B07-4DCF-80C7-05550D7485CD}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Underwater" ID="{103B3B84-535E-4F3F-8D96-DCA8460C6073}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}" Filter="7" Origin="Manual"/>

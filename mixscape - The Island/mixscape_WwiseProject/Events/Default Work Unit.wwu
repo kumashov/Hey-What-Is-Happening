@@ -167,7 +167,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Beach Ambience Loops" ID="{7D842A0C-0A0D-4B44-B6FE-FE33F3055F3F}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
+									<ObjectRef Name="beach_ocean_wind_loop_01" ID="{7AD6007B-0EA8-4D01-B2DD-CD2BD46DF788}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -198,6 +198,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Beach birds" ID="{4676DA1C-C095-4A37-97E1-27DE1BB1037C}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CloseBeachWaves" ID="{5CED469D-6FCD-4210-84FE-8B161FAEC5A7}">
+					<ChildrenList>
+						<Action Name="" ID="{AC6EFC35-5581-4FE6-9D55-F5FFAF1D1A2C}" ShortID="569371820">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="beach_waves_close_calm_loop_01" ID="{BDED2310-0136-4416-8155-F1345D07115C}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CreakingBoat" ID="{7D13DF21-2512-4B3D-8E32-DF0CA22532B5}">
+					<ChildrenList>
+						<Action Name="" ID="{DAF53F47-0FFA-483B-8335-DBCF2A2CC339}" ShortID="835923258">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boat creaking" ID="{BB0DD5D4-A0E2-4D01-8870-19E9B7AEA32F}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

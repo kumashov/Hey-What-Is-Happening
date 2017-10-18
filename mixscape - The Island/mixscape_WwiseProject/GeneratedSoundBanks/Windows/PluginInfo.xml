@@ -2,6 +2,7 @@
 <PluginInfo Project="mixscape_WwiseProject" Platform="Windows" BasePlatform="Windows">
 	<Plugins>
 		<Plugin Name="Wwise Silence" ID="6619138" DLL="SilenceGenerator"/>
+		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="ParametricEQ"/>
 		<Plugin Name="Wwise Expander" ID="7143427" DLL="AkExpander"/>
 	</Plugins>
 </PluginInfo>

@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}'
-    m_lastTimePsrt1: -371906127
-    m_lastTimePart2: -1999301221
+    m_lastTimePsrt1: -1328195591
+    m_lastTimePart2: -1999301087
     List:
     - Name: ChangeEnv_Beach
       Path: Default Work Unit\ChangeEnv_Beach
@@ -68,6 +68,26 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1187260638
       Guid: a7eff48126f65e488b48ada12a616cd1
+      maxAttenuation: 0
+    - Name: CloseBeachWaves
+      Path: Default Work Unit\CloseBeachWaves
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CloseBeachWaves
+        ObjectType: 3
+      ID: 1810289722
+      Guid: 9d46ed5ccd6f104284fe8b161faec5a7
+      maxAttenuation: 0
+    - Name: CreakingBoat
+      Path: Default Work Unit\CreakingBoat
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CreakingBoat
+        ObjectType: 3
+      ID: -821264573
+      Guid: 21df137d12253d4b8e32df0ca22532b5
       maxAttenuation: 0
     - Name: EnterUnderwater
       Path: Default Work Unit\EnterUnderwater
@@ -257,8 +277,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{E0A930E7-5E15-4E01-B06D-C6C7DACCD5BF}'
-    m_lastTimePsrt1: -69702142
-    m_lastTimePart2: -1999301221
+    m_lastTimePsrt1: -1361366637
+    m_lastTimePart2: -1999301088
     List:
     - Name: Main
       Path: Default Work Unit\Main
@@ -417,8 +437,11 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /mixscape_WwiseProject
-  - /mixscape_WwiseProject/Events
-  - /mixscape_WwiseProject/Events/Default Work Unit
+  - /mixscape_WwiseProject/Auxiliary Busses
+  - /mixscape_WwiseProject/Auxiliary Busses/Default Work Unit
+  - /mixscape_WwiseProject/Auxiliary Busses/Default Work Unit/Master Audio Bus
+  - /mixscape_WwiseProject/Switches
+  - /mixscape_WwiseProject/Switches/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

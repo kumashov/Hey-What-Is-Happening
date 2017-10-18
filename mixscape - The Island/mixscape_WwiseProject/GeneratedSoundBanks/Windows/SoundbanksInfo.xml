@@ -45,6 +45,8 @@
 				<Event Id="3195589498" Name="ChangeEnv_Forest" ObjectPath="\Events\Default Work Unit\ChangeEnv_Forest"/>
 				<Event Id="928611434" Name="ChangeEnv_Outside" ObjectPath="\Events\Default Work Unit\ChangeEnv_Outside" MaxAttenuation="0.000000"/>
 				<Event Id="3107706658" Name="ChangeEnv_Underwater" ObjectPath="\Events\Default Work Unit\ChangeEnv_Underwater" MaxAttenuation="0.000000"/>
+				<Event Id="1810289722" Name="CloseBeachWaves" ObjectPath="\Events\Default Work Unit\CloseBeachWaves" MaxAttenuation="40.000000"/>
+				<Event Id="3473702723" Name="CreakingBoat" ObjectPath="\Events\Default Work Unit\CreakingBoat" MaxAttenuation="10.000000"/>
 				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
 				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Jump"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
@@ -68,7 +70,7 @@
 				</File>
 				<File Id="214827176" Language="SFX">
 					<ShortName>beach_ocean_wind_loop_01.wav</ShortName>
-					<Path>SFX\beach_ocean_wind_loop_01_53CEE377.wem</Path>
+					<Path>SFX\beach_ocean_wind_loop_01_9452F465.wem</Path>
 				</File>
 				<File Id="254489205" Language="SFX">
 					<ShortName>beach_seagul_cries_03.wav</ShortName>
@@ -81,6 +83,10 @@
 				<File Id="359007391" Language="SFX">
 					<ShortName>beach_seagul_cries_02.wav</ShortName>
 					<Path>SFX\beach_seagul_cries_02_53CEE377.wem</Path>
+				</File>
+				<File Id="402064066" Language="SFX">
+					<ShortName>beach_boat_creaking_03.wav</ShortName>
+					<Path>SFX\beach_boat_creaking_03_53CEE377.wem</Path>
 				</File>
 				<File Id="488214762" Language="SFX">
 					<ShortName>Footstep01.wav</ShortName>
@@ -110,6 +116,10 @@
 					<ShortName>269010__lwdickens__water-splash-3.wav</ShortName>
 					<Path>SFX\269010__lwdickens__water-splash-3_53CEE377.wem</Path>
 				</File>
+				<File Id="707932961" Language="SFX">
+					<ShortName>beach_waves_close_calm_loop_01.wav</ShortName>
+					<Path>SFX\beach_waves_close_calm_loop_01_9452F465.wem</Path>
+				</File>
 				<File Id="709668873" Language="SFX">
 					<ShortName>forest_footsteps_02.wav</ShortName>
 					<Path>SFX\forest_footsteps_02_53CEE377.wem</Path>
@@ -122,6 +132,10 @@
 					<ShortName>beach_seagul_cries_01.wav</ShortName>
 					<Path>SFX\beach_seagul_cries_01_53CEE377.wem</Path>
 				</File>
+				<File Id="757269489" Language="SFX">
+					<ShortName>beach_boat_creaking_01.wav</ShortName>
+					<Path>SFX\beach_boat_creaking_01_53CEE377.wem</Path>
+				</File>
 				<File Id="771368949" Language="SFX">
 					<ShortName>forest_footsteps_04.wav</ShortName>
 					<Path>SFX\forest_footsteps_04_53CEE377.wem</Path>
@@ -129,6 +143,10 @@
 				<File Id="783146530" Language="SFX">
 					<ShortName>forest_wind_highlights_03.wav</ShortName>
 					<Path>SFX\forest_wind_highlights_03_53CEE377.wem</Path>
+				</File>
+				<File Id="803039976" Language="SFX">
+					<ShortName>beach_boat_creaking_02.wav</ShortName>
+					<Path>SFX\beach_boat_creaking_02_53CEE377.wem</Path>
 				</File>
 				<File Id="910890400" Language="SFX">
 					<ShortName>forest_forest_birds_ambience_loop_01.wav</ShortName>

@@ -12,24 +12,6 @@
 						</Property>
 					</PropertyList>
 					<ChildrenList>
-						<AuxBus Name="Underwater" ID="{103B3B84-535E-4F3F-8D96-DCA8460C6073}">
-							<PropertyList>
-								<Property Name="DivergenceCenter" Type="int32">
-									<ValueList>
-										<Value>100</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-						</AuxBus>
-						<AuxBus Name="Outside" ID="{C4CD4603-3BD2-4B97-9E5F-3832F5B07B05}">
-							<PropertyList>
-								<Property Name="DivergenceCenter" Type="int32">
-									<ValueList>
-										<Value>100</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-						</AuxBus>
 						<AuxBus Name="Cave" ID="{A17BA1D8-6BFA-43CE-9DB7-58225A524138}">
 							<PropertyList>
 								<Property Name="DivergenceCenter" Type="int32">
@@ -47,6 +29,29 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
+						</AuxBus>
+						<AuxBus Name="Beach" ID="{F476DB45-BA95-4F3E-8119-33E6C0F1D8C2}">
+							<PropertyList>
+								<Property Name="DivergenceCenter" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</AuxBus>
+						<AuxBus Name="House" ID="{C767E4B8-86CD-42C1-B450-459A418351CE}">
+							<PropertyList>
+								<Property Name="DivergenceCenter" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
 						</AuxBus>
 					</ChildrenList>
 				</Bus>

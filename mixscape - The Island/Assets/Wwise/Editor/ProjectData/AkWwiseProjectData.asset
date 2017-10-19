@@ -440,6 +440,8 @@ MonoBehaviour:
   - /mixscape_WwiseProject/Auxiliary Busses
   - /mixscape_WwiseProject/Auxiliary Busses/Default Work Unit
   - /mixscape_WwiseProject/Auxiliary Busses/Default Work Unit/Master Audio Bus
+  - /mixscape_WwiseProject/Switches
+  - /mixscape_WwiseProject/Switches/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

@@ -10,15 +10,15 @@
 				<File Name="VoiceOver" Hash="2473387863" Timestamp="131434377983507033"/>
 			</Language>
 			<Language ID="393239870">
-				<File Name="Init" Hash="1697599058" Timestamp="131528012343221779"/>
-				<File Name="Main" Hash="3875838170" Timestamp="131528024461631052"/>
-				<File Name="Underwater" Hash="1579024096" Timestamp="131528024461701107"/>
-				<File Name="VoiceOver" Hash="1970036901" Timestamp="131527414164787593"/>
+				<File Name="Init" Hash="1697599058" Timestamp="131528620190000000"/>
+				<File Name="Main" Hash="3254562232" Timestamp="131528675520000000"/>
+				<File Name="Underwater" Hash="3239167367" Timestamp="131528620190000000"/>
+				<File Name="VoiceOver" Hash="15268800" Timestamp="131528620190000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3060692744" Timestamp="131528024461766148"/>
+				<File Name="" Hash="3701084748" Timestamp="131528675520000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -31,10 +31,16 @@
 				<File Name="Underwater" Hash="1426889344" Timestamp="131498472480000000"/>
 				<File Name="VoiceOver" Hash="3110539665" Timestamp="131498472480000000"/>
 			</Language>
+			<Language ID="393239870">
+				<File Name="Init" Hash="681127148" Timestamp="131528620150000000"/>
+				<File Name="Main" Hash="1004516758" Timestamp="131528679070000000"/>
+				<File Name="Underwater" Hash="3239167367" Timestamp="131528620150000000"/>
+				<File Name="VoiceOver" Hash="15268800" Timestamp="131528620150000000"/>
+			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1016791828" Timestamp="131498472480000000"/>
+				<File Name="" Hash="3726047097" Timestamp="131528679070000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

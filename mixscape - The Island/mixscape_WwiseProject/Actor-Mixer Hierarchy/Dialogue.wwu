@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1BD92203-C87F-4000-9A1B-46F905317AF6}" SchemaVersion="80">
+	<AudioObjects>
+		<WorkUnit Name="Dialogue" ID="{1BD92203-C87F-4000-9A1B-46F905317AF6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Dialogue1" ID="{02D0951B-0880-4DAB-9AC7-1D30B2B65BB7}" ShortID="157566278">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{7E433978-9CCB-4A66-8C97-6BB0C158AA8A}" WorkUnitID="{D576DF80-2C26-46F6-853D-D000F4144603}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{427C21A7-22DB-4F46-988A-5CA082EB2F25}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dialogue1" ID="{D46D6A1B-848F-4E34-98DE-5A570A9D6B3D}" ShortID="532995987">
+							<Language>SFX</Language>
+							<AudioFile>Dialogue1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dialogue1" ID="{D46D6A1B-848F-4E34-98DE-5A570A9D6B3D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

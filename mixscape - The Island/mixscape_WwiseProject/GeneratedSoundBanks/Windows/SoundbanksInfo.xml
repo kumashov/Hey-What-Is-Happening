@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>/Users/musicadmin/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/z:/Volumes/KUMASHOV_FIRE/mixscape - The Island/mixscape_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/musicadmin/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/z:/Volumes/KUMASHOV_FIRE/mixscape - The Island/mixscape_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/musicadmin/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/z:/Volumes/KUMASHOV_FIRE/mixscape - The Island/mixscape_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Marlon\Documents\GitHub\Hey-What-Is-Happening\mixscape - The Island\mixscape_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/musicadmin/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/z:/Volumes/KUMASHOV_FIRE/mixscape - The Island/mixscape_WwiseProject/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -27,11 +27,11 @@
 			<IncludedMemoryFiles>
 				<File Id="697224158" Language="SFX">
 					<ShortName>269010__lwdickens__water-splash-3.wav</ShortName>
-					<Path>SFX\269010__lwdickens__water-splash-3_53CEE377.wem</Path>
+					<Path>SFX/269010__lwdickens__water-splash-3_53CEE377.wem</Path>
 				</File>
 				<File Id="714319681" Language="SFX">
 					<ShortName>190085__tran5ient__splash9.wav</ShortName>
-					<Path>SFX\190085__tran5ient__splash9_53CEE377.wem</Path>
+					<Path>SFX/190085__tran5ient__splash9_53CEE377.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -47,122 +47,132 @@
 				<Event Id="3107706658" Name="ChangeEnv_Underwater" ObjectPath="\Events\Default Work Unit\ChangeEnv_Underwater" MaxAttenuation="0.000000"/>
 				<Event Id="1810289722" Name="CloseBeachWaves" ObjectPath="\Events\Default Work Unit\CloseBeachWaves" MaxAttenuation="40.000000"/>
 				<Event Id="3473702723" Name="CreakingBoat" ObjectPath="\Events\Default Work Unit\CreakingBoat" MaxAttenuation="10.000000"/>
+				<Event Id="1669749372" Name="Dialogue1" ObjectPath="\Events\Default Work Unit\Dialogue1" MaxAttenuation="100.000000"/>
 				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
+				<Event Id="4058101365" Name="GameStart" ObjectPath="\Events\Default Work Unit\GameStart"/>
 				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Jump"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="32445555" Language="SFX">
 					<ShortName>forest_footsteps_05.wav</ShortName>
-					<Path>SFX\forest_footsteps_05_53CEE377.wem</Path>
+					<Path>SFX/forest_footsteps_05_53CEE377.wem</Path>
 				</File>
 				<File Id="86937421" Language="SFX">
 					<ShortName>forest_cold_wind_base_loop.wav</ShortName>
-					<Path>SFX\forest_cold_wind_base_loop_9452F465.wem</Path>
+					<Path>SFX/forest_cold_wind_base_loop_9452F465.wem</Path>
 				</File>
 				<File Id="105681997" Language="SFX">
 					<ShortName>Footstep03.wav</ShortName>
-					<Path>SFX\Footstep03_53CEE377.wem</Path>
+					<Path>SFX/Footstep03_53CEE377.wem</Path>
 				</File>
 				<File Id="120686204" Language="SFX">
 					<ShortName>beach_seagul_cries_04.wav</ShortName>
-					<Path>SFX\beach_seagul_cries_04_53CEE377.wem</Path>
+					<Path>SFX/beach_seagul_cries_04_53CEE377.wem</Path>
 				</File>
 				<File Id="214827176" Language="SFX">
 					<ShortName>beach_ocean_wind_loop_01.wav</ShortName>
-					<Path>SFX\beach_ocean_wind_loop_01_9452F465.wem</Path>
+					<Path>SFX/beach_ocean_wind_loop_01_9452F465.wem</Path>
 				</File>
 				<File Id="254489205" Language="SFX">
 					<ShortName>beach_seagul_cries_03.wav</ShortName>
-					<Path>SFX\beach_seagul_cries_03_53CEE377.wem</Path>
+					<Path>SFX/beach_seagul_cries_03_53CEE377.wem</Path>
 				</File>
 				<File Id="273611757" Language="SFX">
 					<ShortName>forest_wind_highlights_02.wav</ShortName>
-					<Path>SFX\forest_wind_highlights_02_53CEE377.wem</Path>
+					<Path>SFX/forest_wind_highlights_02_53CEE377.wem</Path>
 				</File>
 				<File Id="359007391" Language="SFX">
 					<ShortName>beach_seagul_cries_02.wav</ShortName>
-					<Path>SFX\beach_seagul_cries_02_53CEE377.wem</Path>
+					<Path>SFX/beach_seagul_cries_02_53CEE377.wem</Path>
+				</File>
+				<File Id="373839880" Language="SFX">
+					<ShortName>CreepyHum.wav</ShortName>
+					<Path>SFX/CreepyHum_9452F465.wem</Path>
 				</File>
 				<File Id="402064066" Language="SFX">
 					<ShortName>beach_boat_creaking_03.wav</ShortName>
-					<Path>SFX\beach_boat_creaking_03_53CEE377.wem</Path>
+					<Path>SFX/beach_boat_creaking_03_53CEE377.wem</Path>
 				</File>
 				<File Id="488214762" Language="SFX">
 					<ShortName>Footstep01.wav</ShortName>
-					<Path>SFX\Footstep01_53CEE377.wem</Path>
+					<Path>SFX/Footstep01_53CEE377.wem</Path>
 				</File>
 				<File Id="491858272" Language="SFX">
 					<ShortName>forest_crickets_and_dog_loop.wav</ShortName>
-					<Path>SFX\forest_crickets_and_dog_loop_9452F465.wem</Path>
+					<Path>SFX/forest_crickets_and_dog_loop_9452F465.wem</Path>
 				</File>
 				<File Id="523273653" Language="SFX">
 					<ShortName>Footstep04.wav</ShortName>
-					<Path>SFX\Footstep04_53CEE377.wem</Path>
+					<Path>SFX/Footstep04_53CEE377.wem</Path>
+				</File>
+				<File Id="532995987" Language="SFX">
+					<ShortName>Dialogue1.wav</ShortName>
+					<Path>SFX/Dialogue1_53CEE377.wem</Path>
 				</File>
 				<File Id="611297062" Language="SFX">
 					<ShortName>Footstep02.wav</ShortName>
-					<Path>SFX\Footstep02_53CEE377.wem</Path>
+					<Path>SFX/Footstep02_53CEE377.wem</Path>
 				</File>
 				<File Id="626485153" Language="SFX">
 					<ShortName>Land.wav</ShortName>
-					<Path>SFX\Land_53CEE377.wem</Path>
+					<Path>SFX/Land_53CEE377.wem</Path>
 				</File>
 				<File Id="654065316" Language="SFX">
 					<ShortName>forest_wind_highlights_01.wav</ShortName>
-					<Path>SFX\forest_wind_highlights_01_53CEE377.wem</Path>
+					<Path>SFX/forest_wind_highlights_01_53CEE377.wem</Path>
 				</File>
 				<File Id="697224158" Language="SFX">
 					<ShortName>269010__lwdickens__water-splash-3.wav</ShortName>
-					<Path>SFX\269010__lwdickens__water-splash-3_53CEE377.wem</Path>
+					<Path>SFX/269010__lwdickens__water-splash-3_53CEE377.wem</Path>
 				</File>
 				<File Id="707932961" Language="SFX">
 					<ShortName>beach_waves_close_calm_loop_01.wav</ShortName>
-					<Path>SFX\beach_waves_close_calm_loop_01_9452F465.wem</Path>
+					<Path>SFX/beach_waves_close_calm_loop_01_9452F465.wem</Path>
 				</File>
 				<File Id="709668873" Language="SFX">
 					<ShortName>forest_footsteps_02.wav</ShortName>
-					<Path>SFX\forest_footsteps_02_53CEE377.wem</Path>
+					<Path>SFX/forest_footsteps_02_53CEE377.wem</Path>
 				</File>
 				<File Id="714319681" Language="SFX">
 					<ShortName>190085__tran5ient__splash9.wav</ShortName>
-					<Path>SFX\190085__tran5ient__splash9_53CEE377.wem</Path>
+					<Path>SFX/190085__tran5ient__splash9_53CEE377.wem</Path>
 				</File>
 				<File Id="756246582" Language="SFX">
 					<ShortName>beach_seagul_cries_01.wav</ShortName>
-					<Path>SFX\beach_seagul_cries_01_53CEE377.wem</Path>
+					<Path>SFX/beach_seagul_cries_01_53CEE377.wem</Path>
 				</File>
 				<File Id="757269489" Language="SFX">
 					<ShortName>beach_boat_creaking_01.wav</ShortName>
-					<Path>SFX\beach_boat_creaking_01_53CEE377.wem</Path>
+					<Path>SFX/beach_boat_creaking_01_53CEE377.wem</Path>
 				</File>
 				<File Id="771368949" Language="SFX">
 					<ShortName>forest_footsteps_04.wav</ShortName>
-					<Path>SFX\forest_footsteps_04_53CEE377.wem</Path>
+					<Path>SFX/forest_footsteps_04_53CEE377.wem</Path>
 				</File>
 				<File Id="783146530" Language="SFX">
 					<ShortName>forest_wind_highlights_03.wav</ShortName>
-					<Path>SFX\forest_wind_highlights_03_53CEE377.wem</Path>
+					<Path>SFX/forest_wind_highlights_03_53CEE377.wem</Path>
 				</File>
 				<File Id="803039976" Language="SFX">
 					<ShortName>beach_boat_creaking_02.wav</ShortName>
-					<Path>SFX\beach_boat_creaking_02_53CEE377.wem</Path>
+					<Path>SFX/beach_boat_creaking_02_53CEE377.wem</Path>
 				</File>
 				<File Id="910890400" Language="SFX">
 					<ShortName>forest_forest_birds_ambience_loop_01.wav</ShortName>
-					<Path>SFX\forest_forest_birds_ambience_loop_01_9452F465.wem</Path>
+					<Path>SFX/forest_forest_birds_ambience_loop_01_9452F465.wem</Path>
 				</File>
 				<File Id="921952352" Language="SFX">
 					<ShortName>Jump.wav</ShortName>
-					<Path>SFX\Jump_53CEE377.wem</Path>
+					<Path>SFX/Jump_53CEE377.wem</Path>
 				</File>
 				<File Id="927935009" Language="SFX">
 					<ShortName>forest_footsteps_01.wav</ShortName>
-					<Path>SFX\forest_footsteps_01_53CEE377.wem</Path>
+					<Path>SFX/forest_footsteps_01_53CEE377.wem</Path>
 				</File>
 				<File Id="999858560" Language="SFX">
 					<ShortName>forest_footsteps_03.wav</ShortName>
-					<Path>SFX\forest_footsteps_03_53CEE377.wem</Path>
+					<Path>SFX/forest_footsteps_03_53CEE377.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -179,27 +189,27 @@
 			<IncludedMemoryFiles>
 				<File Id="180310895" Language="SFX">
 					<ShortName>lily11.wav</ShortName>
-					<Path>SFX\lily11_53CEE377.wem</Path>
+					<Path>SFX/lily11_53CEE377.wem</Path>
 				</File>
 				<File Id="647477946" Language="SFX">
 					<ShortName>lily5.wav</ShortName>
-					<Path>SFX\lily5_53CEE377.wem</Path>
+					<Path>SFX/lily5_53CEE377.wem</Path>
 				</File>
 				<File Id="721878772" Language="SFX">
 					<ShortName>ted03.wav</ShortName>
-					<Path>SFX\ted03_53CEE377.wem</Path>
+					<Path>SFX/ted03_53CEE377.wem</Path>
 				</File>
 				<File Id="759825817" Language="SFX">
 					<ShortName>hugo08.wav</ShortName>
-					<Path>SFX\hugo08_53CEE377.wem</Path>
+					<Path>SFX/hugo08_53CEE377.wem</Path>
 				</File>
 				<File Id="796168968" Language="SFX">
 					<ShortName>hugo06.wav</ShortName>
-					<Path>SFX\hugo06_53CEE377.wem</Path>
+					<Path>SFX/hugo06_53CEE377.wem</Path>
 				</File>
 				<File Id="885326075" Language="SFX">
 					<ShortName>lily01.wav</ShortName>
-					<Path>SFX\lily01_53CEE377.wem</Path>
+					<Path>SFX/lily01_53CEE377.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

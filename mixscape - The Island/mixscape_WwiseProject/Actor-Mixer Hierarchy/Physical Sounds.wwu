@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{09CF95B3-AB32-488D-87BF-34F0576A96A9}" SchemaVersion="80">
+	<AudioObjects>
+		<WorkUnit Name="Physical Sounds" ID="{09CF95B3-AB32-488D-87BF-34F0576A96A9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="RustlingClothes" ID="{6C639900-6057-4766-BD87-8BE5C87BEE7F}" ShortID="669248237">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{427C21A7-22DB-4F46-988A-5CA082EB2F25}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RustlingClothes" ID="{AFA4C4AE-3CD2-47D0-BCC7-2518702FBBBA}" ShortID="966590995">
+							<Language>SFX</Language>
+							<AudioFile>RustlingClothes.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RustlingClothes" ID="{AFA4C4AE-3CD2-47D0-BCC7-2518702FBBBA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

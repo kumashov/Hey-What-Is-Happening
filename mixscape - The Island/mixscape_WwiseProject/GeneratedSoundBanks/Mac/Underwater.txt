@@ -15,6 +15,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2861796105	player_scale			\Default Work Unit\player_scale	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	697224158	269010__lwdickens__water-splash-3	Y:\Sync\Uni\Game Audio semester 2\mixscape\mixscape_WwiseProject\.cache\Mac\SFX\269010__lwdickens__water-splash-3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\WaterFootsteps\269010__lwdickens__water-splash-3		183244
-	714319681	190085__tran5ient__splash9	Y:\Sync\Uni\Game Audio semester 2\mixscape\mixscape_WwiseProject\.cache\Mac\SFX\190085__tran5ient__splash9_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\UnderwaterFootsteps\190085__tran5ient__splash9		320072
+	697224158	269010__lwdickens__water-splash-3	Z:\Volumes\KUMASHOV_FIRE\mixscape - The Island\mixscape_WwiseProject\.cache\Mac\SFX\269010__lwdickens__water-splash-3_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\WaterFootsteps\269010__lwdickens__water-splash-3		183244
+	714319681	190085__tran5ient__splash9	Z:\Volumes\KUMASHOV_FIRE\mixscape - The Island\mixscape_WwiseProject\.cache\Mac\SFX\190085__tran5ient__splash9_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\UnderwaterFootsteps\190085__tran5ient__splash9		320072
 

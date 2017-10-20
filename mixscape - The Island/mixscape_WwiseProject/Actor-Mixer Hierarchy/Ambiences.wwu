@@ -41,11 +41,6 @@
 						<Sound Name="forest_crickets_and_dog_loop" ID="{FF1B00B7-50AB-4558-AF78-068EED0F36DB}" ShortID="728512288">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-13</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -283,11 +278,39 @@
 				<RandomSequenceContainer Name="Beach birds" ID="{4676DA1C-C095-4A37-97E1-27DE1BB1037C}" ShortID="531290730">
 					<PropertyList>
 						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{3854857C-B44E-4C4D-AD1E-667A5AED33CF}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E05F020E-5ED2-446B-B487-41ED4C19EB7C}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="10"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-9</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -304,6 +327,24 @@
 							<PropertyList>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{EF9C5297-3BB1-44D4-AC83-260B6D89DB6E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Weight" Type="Real64">
 									<ValueList>
 										<Value>1</Value>
@@ -340,6 +381,11 @@
 							<PropertyList>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Weight" Type="Real64">
 									<ValueList>
 										<Value>1</Value>
@@ -417,6 +463,11 @@
 							<PropertyList>
 								<Property Name="EnablePanner" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Weight" Type="Real64">
 									<ValueList>
 										<Value>1.001</Value>
@@ -580,6 +631,10 @@
 							<Language>SFX</Language>
 							<AudioFile>beach_waves_close_calm_loop_01.wav</AudioFile>
 						</AudioFileSource>
+						<AudioFileSource Name="CreepyHum" ID="{B710198A-C87A-4F23-A7FE-696AC03D5934}" ShortID="373839880">
+							<Language>SFX</Language>
+							<AudioFile>CreepyHum.wav</AudioFile>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="beach_waves_close_calm_loop_01" ID="{96F9BDF8-9B57-40B3-B444-15F5D262F7F9}" Platform="Linked"/>
@@ -590,7 +645,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -838,6 +893,67 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Folder Name="Hums and Music" ID="{49E9EB31-C755-41D8-9062-B28E5AD4E2EC}" ShortID="461747628">
+					<ChildrenList>
+						<Sound Name="CreepyHum" ID="{F98DDFDF-E449-4D2C-B2AB-F213E2179706}" ShortID="1059252244">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{427C21A7-22DB-4F46-988A-5CA082EB2F25}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CreepyHum" ID="{033E114A-0E7F-47B6-BDF1-19D3ADD25245}" ShortID="316430090">
+									<Language>SFX</Language>
+									<AudioFile>CreepyHum.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="373839880"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CreepyHum" ID="{033E114A-0E7F-47B6-BDF1-19D3ADD25245}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CreepyHum2" ID="{63CE69CC-D228-4070-843D-5D2F9B190BEF}" ShortID="524759355">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{427C21A7-22DB-4F46-988A-5CA082EB2F25}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CreepyHum2" ID="{DE6E2FE1-900F-41BA-B937-F73285C5A7D5}" ShortID="138783588">
+									<Language>SFX</Language>
+									<AudioFile>CreepyHum2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CreepyHum2" ID="{DE6E2FE1-900F-41BA-B937-F73285C5A7D5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

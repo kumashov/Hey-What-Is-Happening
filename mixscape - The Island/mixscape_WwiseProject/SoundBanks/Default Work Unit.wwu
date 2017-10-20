@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{5FF31760-E54B-4A62-AEC2-17E66430D0FC}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Dialogue1" ID="{4C7D2CFF-36DF-4064-876F-53A5623307F2}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambiences" ID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Jump" ID="{407EB6C4-666C-4119-9576-D76AA7663781}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Footsteps" ID="{31B7970D-4199-427E-930E-7B2469461649}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
@@ -21,6 +22,7 @@
 						<ObjectRef Name="Outside" ID="{C4CD4603-3BD2-4B97-9E5F-3832F5B07B05}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="beach_ocean_wind_loop_01" ID="{7AD6007B-0EA8-4D01-B2DD-CD2BD46DF788}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Boat creaking" ID="{BB0DD5D4-A0E2-4D01-8870-19E9B7AEA32F}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GameStart" ID="{2EA3CAA5-8D99-4D2A-BA41-74E7954F1006}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ChangeEnv_Outside" ID="{DC6DBC5D-F03D-4D54-8D48-E0A86141D3DC}" WorkUnitID="{E1A9AEAB-ABC5-4540-82C3-DA1D3C946B14}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Forest" ID="{4E9C92EF-7B07-4DCF-80C7-05550D7485CD}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Underwater" ID="{103B3B84-535E-4F3F-8D96-DCA8460C6073}" WorkUnitID="{5654317E-C7A5-40DD-B22C-0EBA3BC60611}" Filter="7" Origin="Manual"/>

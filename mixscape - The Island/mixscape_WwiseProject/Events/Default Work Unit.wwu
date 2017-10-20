@@ -129,7 +129,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="ChangeEnv_Outside" ID="{DC6DBC5D-F03D-4D54-8D48-E0A86141D3DC}"/>
+				<Event Name="ChangeEnv_Outside" ID="{DC6DBC5D-F03D-4D54-8D48-E0A86141D3DC}">
+					<ChildrenList>
+						<Action Name="" ID="{70411855-73B8-4D05-AFBD-55178F2BB0CC}" ShortID="228510478">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beach birds" ID="{4676DA1C-C095-4A37-97E1-27DE1BB1037C}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1182FD55-2C48-48DC-A608-1B3368E16195}" ShortID="871893476">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boat creaking" ID="{BB0DD5D4-A0E2-4D01-8870-19E9B7AEA32F}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{144EDF65-14D2-4227-9932-5346056F2DFA}" ShortID="85665945">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="beach_ocean_wind_loop_01" ID="{7AD6007B-0EA8-4D01-B2DD-CD2BD46DF788}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CF7B8E73-5AF7-41DB-B829-56CA22F466AE}" ShortID="250406918">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="beach_waves_close_calm_loop_01" ID="{BDED2310-0136-4416-8155-F1345D07115C}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="ChangeEnv_Underwater" ID="{81F4EFA7-F626-485E-8B48-ADA12A616CD1}"/>
 				<Event Name="ChangeEnv_Forest" ID="{16109572-0C6D-448B-89BF-E5F632105206}">
 					<ChildrenList>
@@ -152,6 +195,36 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Forest Ambience Loops" ID="{1ECE0C10-4D63-46FB-9117-F6D6D120CDFA}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EFCC393F-D822-4011-AA27-00BE03A444BC}" ShortID="410837451">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beach birds" ID="{4676DA1C-C095-4A37-97E1-27DE1BB1037C}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9246EB01-B58F-46E4-B4F9-CE960867BD95}" ShortID="462048191">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="beach_ocean_wind_loop_01" ID="{7AD6007B-0EA8-4D01-B2DD-CD2BD46DF788}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A5C30299-2F8B-4BBB-ADCD-4F2773E9D352}" ShortID="256592457">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CreepyHum" ID="{F98DDFDF-E449-4D2C-B2AB-F213E2179706}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -226,6 +299,58 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Boat creaking" ID="{BB0DD5D4-A0E2-4D01-8870-19E9B7AEA32F}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameStart" ID="{2EA3CAA5-8D99-4D2A-BA41-74E7954F1006}">
+					<ChildrenList>
+						<Action Name="" ID="{6D1A9945-AB53-4E91-B888-8B862A200490}" ShortID="1013415355">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CreepyHum" ID="{F98DDFDF-E449-4D2C-B2AB-F213E2179706}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C452EE7B-F938-4549-8DDB-C041F72427A2}" ShortID="234133643">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RustlingClothes" ID="{6C639900-6057-4766-BD87-8BE5C87BEE7F}" WorkUnitID="{09CF95B3-AB32-488D-87BF-34F0576A96A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Dialogue1" ID="{4C7D2CFF-36DF-4064-876F-53A5623307F2}">
+					<ChildrenList>
+						<Action Name="" ID="{4A83B575-F828-4647-BABB-A841D8645E19}" ShortID="925371709">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dialogue1" ID="{02D0951B-0880-4DAB-9AC7-1D30B2B65BB7}" WorkUnitID="{1BD92203-C87F-4000-9A1B-46F905317AF6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Obelisk_Hum" ID="{A52E6A99-6523-4E9C-BB66-D5DDEBB4F12F}">
+					<ChildrenList>
+						<Action Name="" ID="{32352403-35FD-4F36-AC39-464FDD985ED2}" ShortID="375422458">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CreepyHum2" ID="{63CE69CC-D228-4070-843D-5D2F9B190BEF}" WorkUnitID="{3BFA2E26-C56C-406E-83AA-431FEDF20BAC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

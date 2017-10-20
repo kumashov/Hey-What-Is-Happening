@@ -5561,6 +5561,7 @@ Transform:
   m_GameObject: {fileID: 2095085539}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: 0.064735755, y: -0.8734644, z: 0.12102913, w: 0.46714148}
   m_LocalPosition: {x: -58.923477, y: -6.1066303, z: -37.01433}
 =======
@@ -5569,6 +5570,18 @@ Transform:
 >>>>>>> adddfb9f9fa3bdf6be4e46a26a616d3facb521cf
 =======
 <<<<<<< HEAD
+  m_LocalRotation: {x: -0.031813942, y: 0.58676887, z: 0.023079542, w: 0.80880004}
+  m_LocalPosition: {x: 28.093987, y: -9.672774, z: 31.098335}
+=======
+  m_LocalRotation: {x: 0.15594468, y: 0.2239594, z: 0.03632984, w: -0.9613551}
+  m_LocalPosition: {x: 86.82095, y: -15.230093, z: -115.24241}
+>>>>>>> parent of 2f91366... added house
+=======
+  m_LocalRotation: {x: 0.15594468, y: 0.2239594, z: 0.03632984, w: -0.9613551}
+  m_LocalPosition: {x: 86.82095, y: -15.230093, z: -115.24241}
+>>>>>>> parent of adddfb9... Merge branch 'house_add'
+>>>>>>> ee844db690cd1b6aebeaf663b35dd24492b31915
+=======
   m_LocalRotation: {x: -0.031813942, y: 0.58676887, z: 0.023079542, w: 0.80880004}
   m_LocalPosition: {x: 28.093987, y: -9.672774, z: 31.098335}
 =======
